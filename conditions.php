@@ -103,7 +103,7 @@
 
                   1.7 We are not liable for the content on your website  if the law deems it unfit.<br>
 
-                  1.8 We are not liable for any copyright infringement you may commit<br>
+                  1.8 We are not liable for any copyright infringement you may commit.<br>
 
                   1.9 We hold the right to remove content on your website without warning if we deem it unfit.<br>
 
