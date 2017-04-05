@@ -1,0 +1,9 @@
+[09-Jun-2016 17:29:29 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apoapsisam/public_html/userpage/wp-content/themes/apoapsis/index.php on line 1
+[09-Jun-2016 17:30:10 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apoapsisam/public_html/userpage/wp-content/themes/apoapsis/index.php on line 1
+[09-Jun-2016 17:42:11 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apoapsisam/public_html/userpage/wp-content/themes/apoapsis/index.php on line 1
+[09-Jun-2016 17:42:48 UTC] PHP Fatal error:  Call to undefined function get_sidebar() in /home/apoapsisam/public_html/userpage/wp-content/themes/apoapsis/index.php on line 2
+[09-Jun-2016 17:46:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apoapsisam/public_html/userpage/wp-content/themes/apoapsis/index.php on line 1
+[09-Jun-2016 17:46:27 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apoapsisam/public_html/userpage/wp-content/themes/apoapsis/index.php on line 1
+[09-Jun-2016 17:46:30 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apoapsisam/public_html/userpage/wp-content/themes/apoapsis/index.php on line 1
+[09-Jun-2016 17:47:10 UTC] PHP Fatal error:  Call to undefined function wp_title() in /home/apoapsisam/public_html/userpage/wp-content/themes/apoapsis/header.php on line 4
+[09-Jun-2016 17:47:31 UTC] PHP Fatal error:  Call to undefined function _e() in /home/apoapsisam/public_html/userpage/wp-content/themes/apoapsis/sidebar.php on line 2

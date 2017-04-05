@@ -1,0 +1,1 @@
+[09-Jun-2016 17:43:40 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apoapsisam/public_html/userpage/wp-content/themes/index.php on line 1

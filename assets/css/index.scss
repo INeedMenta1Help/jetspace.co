@@ -1,0 +1,133 @@
+.langWrap {
+	text-align: center;
+	display: inline-block;
+}
+.langIcons {
+	height: 70pt;
+	padding: 10pt;
+	display: inline-block;
+	transition: all .25s ease;
+	cursor: pointer;
+	opacity: 0.7;
+}
+.langIcons:hover {
+	opacity: 1;
+}
+.techHeader {
+	font-weight: 300;
+	margin: 0 0 20pt 0;
+	font-size: 30pt;
+	color: #444;
+}
+.techHeaderSub {
+	font-weight: 300;
+	margin: 0 0 40pt 0;
+	font-size: 16pt;
+	color: #767676;
+	width: $width/1.6;
+	display: inline-block;
+}
+
+.langBtn {
+	display: block;
+	margin: 30pt auto 20pt auto;
+	border: 2px solid #ffb3b3;
+	border-radius: 20pt;
+	padding: 10pt 20pt 10pt 20pt;
+	color: #ffb3b3;
+	background: none;
+	font-weight: 500;
+	font-size: 12pt;
+	transition: all .25s ease;
+	outline: none;
+	cursor: pointer;
+}
+.langBtn:hover {
+	border: 2px solid #ffb3b3;
+	border-radius: 10pt;
+	color: #fff;
+	background: rgba(255, 179 ,179, 0.5);
+}
+
+/* Work section (Guaranteed Quality, We'll manage it for you) bullet point */
+.working {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.working h1 {
+	color: #444;
+	position: absolute;
+	top: 5pt;
+	left: 160pt;
+	font-weight: 300;
+	font-family: Roboto;
+}
+.workCase {
+	width: 100pt;
+	position: absolute;
+	left: 10pt;
+	top: 10pt;
+}
+.working p {
+	text-align: left;
+	padding-left: 160pt;
+	color: #767676;
+	font-weight: 300;
+	font-size: 10pt;
+}
+.working div {
+	height: 160pt;
+	position: relative;
+	opacity: 0;
+}
+.working div:nth-child(2) {
+	position: relative;
+}
+.working div:nth-child(3) {
+	position: relative;
+}
+.webConstruct {
+	position: relative;
+	text-align: center;
+}
+.webConstruct img {
+	width: 100%;
+	display: inline-block;
+}
+.webConstruct p:nth-child(1) {
+	font-family: Roboto;
+	color: #444;
+	font-weight: 300;
+	font-size: 25pt;
+	margin: 0 0 20pt 0;
+}
+.webConstruct p:nth-child(3) {
+	font-family: Roboto;
+	color: #373737;
+	font-weight: 300;
+	font-size: 20pt;
+	text-align: left;
+	margin: 0 0 20pt 0;
+}
+.Wdescription {
+	font-family: Roboto;
+	color: #4e4e4e;
+	font-weight: 300;
+	font-size: 14pt;
+	text-align: left;
+	margin: 0 0 20pt 0;
+}
+
+.spacer {
+	height: 50pt;
+	width: 100%;
+	display: block;
+}
+.pictureList span, .pictureList p {
+	font-size: 2em;
+}
+.pictureList img {
+	width: 20rem;
+	margin-left: calc(50% - 10rem);
+}

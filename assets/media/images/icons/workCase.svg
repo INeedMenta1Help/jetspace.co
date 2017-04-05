@@ -1,0 +1,15 @@
+<svg class="workCase" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140">
+          <path fill="none" stroke="#C7637A" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M124.1 95.9c2.2-4.4 3.9-9 4.9-13.8m-48.6 45.8c14.5-2.3 27.6-10.3 36.8-21.4"></path>
+          <path fill="none" stroke="#D78D6E" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M34.8 116.1c10.9 8.5 24.7 12.9 38.5 12.5"></path>
+          <path fill="none" stroke="#D07F6F" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M24.2 105.4c2 2.6 4.2 5 6.6 7.2"></path>
+          <path fill="none" stroke="#CE658F" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M15.2 88.2c1.2 3.8 2.8 7.5 4.8 11m15.8-75.7C20 35.7 11.3 55.9 12.8 75.7"></path>
+          <path fill="none" stroke="#C7637A" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M67.8 11.4c-9.7.6-19.2 3.7-27.4 8.9"></path>
+          <path fill="none" stroke="#C46270" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M121 38.7c-9.9-15.5-27-25.9-45.3-27.2"></path>
+          <path fill="none" stroke="#D78D6E" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M127.2 51.8c-.9-2.7-2-5.3-3.3-7.9"></path>
+          <path fill="none" stroke="#D07F6F" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M130 76c.6-6 .2-12-1-17.9"></path>
+          <circle fill="#C7637A" cx="120.8" cy="101.4" r="3.4"></circle>
+          <path fill="none" stroke="#C46270" stroke-width="3.25" stroke-miterlimit="10" d="M93.8 89.6H48.7c-1.6 0-2.8-1.3-2.8-2.8V58c0-1.6 1.3-2.8 2.8-2.8h45.1c1.6 0 2.8 1.3 2.8 2.8v28.8c0 1.6-1.2 2.8-2.8 2.8zM65.6 55.1v-4.4c0-1.6 1.3-2.8 2.8-2.8h5.7c1.6 0 2.8 1.3 2.8 2.8v4.4"></path>
+          <path fill="#C46270" d="M76.9 69.2v4.4c0 1.6-1.3 2.8-2.8 2.8h-5.7c-1.6 0-2.8-1.3-2.8-2.8v-4.4"></path>
+          <path fill="none" stroke="#C46270" stroke-width="3.25" stroke-miterlimit="10" d="M88.7 61v5.3c0 1.6-1.3 2.8-2.8 2.8H56.6c-1.6 0-2.8-1.3-2.8-2.8V61"></path>
+          <circle fill="#CE658F" cx="13.1" cy="82.1" r="3.4"></circle>
+        </svg>

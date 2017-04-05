@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow:
+Allow: /
+Allow: /websites
+Allow: /portfolio
+Allow: /about
+Allow: /contact-us
+Disallow: /computers
+
+Sitemap: https://jetspace.co/sitemap.xml

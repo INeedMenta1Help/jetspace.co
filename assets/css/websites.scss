@@ -1,0 +1,454 @@
+.plansWrap {
+  width: 100%;
+  text-align: center;
+}
+
+.plan {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 15pt;
+  width: 200pt;
+  height: 325pt;
+  margin: 20pt;
+  text-align: left;
+  transition: all .2s ease;
+}
+.plan:hover {
+  box-shadow: 0 0 15pt -5pt;
+  height: 335pt;
+}
+.plan:hover .planContent > button {
+  margin-top: 10pt;
+}
+.planHead {
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  color: #444;
+  height: 55pt;
+}
+
+.planHeadContain {
+  height: 100%;
+  width: 100%;
+  padding: 10pt 10pt 6pt 14pt;
+  font-size: 17pt;
+  font-weight: 300;
+}
+
+.planHeadTxt {
+  display: block;
+  height: 22pt;
+}
+
+.planSubHead {
+  font-size: 10pt;
+  display: block;
+  font-weight: 400;
+  color: #767676;
+}
+
+.planContent {
+  width: 100%;
+  height: 100%;
+  padding: 12pt;
+  position: relative;
+}
+
+.planContent img {
+  width: 100pt;
+  display: inline-block;
+}
+
+.planPrice {
+  position: absolute;
+  font-size: 50pt;
+  text-align: center;
+  top: 15pt;
+  right: 12pt;
+  display: block;
+}
+
+.serverPlan .planPrice {
+  position: absolute;
+  font-size: 50pt;
+  text-align: center;
+  top: 15pt;
+  right: 22pt;
+  display: block;
+}
+
+.planPrice span {
+  font-size: 10pt;
+  display: block;
+}
+
+.planPrice span:nth-child(1) {
+  font-size: 35pt;
+  font-weight: 100;
+}
+
+.planPrice span:nth-child(3) {
+  font-size: 7pt;
+  margin-top: 3pt;
+}
+
+.planDescription {
+  font-size: 8.5pt;
+  color: #555;
+  height: 107pt;
+  display: block;
+  position: relative;
+  width: 176pt;
+}
+
+.serverPlan .planDescription {
+  padding-top:20pt;
+}
+
+.webPlan .planDescription {
+  padding-top: 20pt;
+}
+
+.btn2 {
+  border: 2px solid transparent;
+  border-radius: 10pt;
+  padding: 10pt 20pt 10pt 20pt;
+  color: #555;
+  background: #e7e7e7;
+  font-weight: 500;
+  font-size: 12pt;
+  transition: all .25s ease;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn2:hover {
+  border: 2px solid #ffb3b3;
+  border-radius: 20pt;
+  color: #ffb3b3;
+  background: none;
+}
+
+
+
+
+
+
+.popupBack {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -5;
+	background: rgba(22, 22, 22, 0.5);
+	opacity: 0;
+	transition: all .2s ease;
+}
+
+.popup {
+	position: fixed;
+	opacity: 0;
+	z-index: -4;
+	transition: all .2s ease;
+	left: calc(50% - 400pt/2);
+	top: calc(50% - 450pt/2);
+	display: inline-block;
+}
+
+.popupPage {
+	width: 10pt;
+	height: 10pt;
+	position: absolute;
+	background: #fff;
+	border-radius: 5pt;
+}
+.popupContent {
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 5pt;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	padding: 20pt 40pt;
+}
+.popupContent h1 {
+	margin: 0;
+	color: #444;
+	font-weight: 300;
+	font-family: Roboto;
+}
+.popupContent h3 {
+	margin: 5pt 0;
+	color: #666;
+	font-weight: 400;
+	font-family: Roboto;
+	font-size: 8pt;
+}
+.getPageForm .material-form-field-label {
+	color: #444 !important;
+	font-weight: 300;
+}
+.popupContent input:valid {
+	color: #444 !important;
+}
+.popupContent textarea {
+	position: relative;
+  width: 210pt;
+	height: 30pt;
+  font-size: 12pt;
+  display: inline-block;
+	background: transparent;
+  border-bottom: 1pt solid #eee;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  resize: none;
+  outline: none;
+}
+.getPageMessage h4 {
+  text-align: left;
+  font-weight: 300;
+  font-size: 15pt;
+  margin-left: 6pt;
+}
+.getPageSubmit {
+	display: block;
+	width: 225pt;
+  height: 30pt;
+	margin-top: 25pt;
+	border: 1pt solid;
+	color: #444;
+	font-weight: 300;
+	background: none;
+	font-size: 15pt;
+	transition: all .27s ease;
+	border-radius: 5pt;
+}
+.getPageSubmit:hover {
+	border-radius: 20pt;
+}
+
+
+
+
+
+
+.getQuote {
+  border: 1pt solid #fff;
+  background: none;
+  color: #fff;
+  font-weight: 200;
+  font-size: 25pt;
+  padding: 6pt 15pt;
+  border-radius: 8pt;
+  cursor: pointer;
+  margin: 14pt 0 0 0;
+  transition: all .1s ease-in-out;
+}
+.getQuote:hover {
+  background: #fff;
+  color: #222;
+}
+.quoteForm {
+  opacity: 0;
+  z-index: -3;
+  transition: all .25s ease;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  backdrop-filter: blur(10pt);
+  background: rgba(255,255,255,0.5);
+}
+.material-form > h1 {
+  color: #ccc !important;
+}
+.material-form > i {
+  position: absolute;
+  top: 20pt;
+  right: 20pt;
+  font-size: 15pt;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.material-form {
+  color: #bbb;
+  background: #2b2b2b;
+  display: inline-block;
+  padding: 20pt;
+  border-radius: 7pt;
+  box-shadow: 0 0 50pt 0 #000;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0) inset;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.material-form-field {
+  position: relative;
+  max-width: 250pt;
+  margin: 5pt 20pt 5pt 20pt;
+  display: inline-block;
+}
+
+.material-form-field-input {
+  padding: 15pt 0 6pt 0;
+  font-size: 17pt;
+  font-weight: 300;
+  color: inherit;
+  font-family: inherit;
+  width: 100%;
+  background: transparent;
+  border-width: 0 0 1px 0;
+  -webkit-transition: 0.4s ease all;
+  transition: 0.4s ease all;
+}
+
+.material-form-field-input::-webkit-input-placeholder {
+  font-family: "RobotoDraft", "Roboto", "Helvetica Neue, Helvetica, Arial", sans-serif;
+  color: transparent;
+}
+.material-form-field-input::-moz-input-placeholder {
+  font-family: "RobotoDraft", "Roboto", "Helvetica Neue, Helvetica, Arial", sans-serif;
+  color: transparent;
+}
+.material-form-field-input:focus:valid,
+.material-form-field-input:focus:invalid {
+  border-bottom-width: 1px;
+}
+
+.material-form-field-input:focus:valid {
+  border-color: #44ff77;
+  color: #fff;
+}
+
+.material-form-field-input:focus:invalid {
+  border-color: #ff8383;
+  color: #ccc !important;
+}
+.material-form-field-input:invalid {
+  color: rgba(53, 53, 53, 0);
+}
+.material-form-field-input:focus::-webkit-input-placeholder,
+.material-form-field-input[value]::-webkit-input-placeholder,
+.material-form-field-input:valid::-webkit-input-placeholder {
+  color: transparent;
+}
+.material-form-field-input:focus::-moz-input-placeholder,
+.material-form-field-input[value]::-moz-input-placeholder,
+.material-form-field-input:valid::-moz-input-placeholder {
+  color: transparent;
+}
+.material-form-field-input:focus + .material-form-field-label,
+.material-form-field-input[value] + .material-form-field-label,
+.material-form-field-input:valid + .material-form-field-label {
+  -webkit-transform: translateY(-26pt);
+  -moz-transform: translateY(-26pt);
+  transform: translateY(-26pt);
+}
+
+.material-form-field-input + .material-form-field-label {
+  -webkit-transition: 0.4s ease all;
+  -moz-transition: 0.4s ease all;
+  transition: 0.4s ease all;
+  cursor: pointer;
+  -moz-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  font-size: 20pt;
+  left: 0;
+  top: 15pt;
+  position: absolute;
+  color: #fff;
+}
+
+.material-form-field-input:focus {
+  outline: none;
+  -moz-outline: none;
+}
+
+.material-form + label {
+  position: absolute;
+  left: 20pt;
+}
+
+.material-form textarea {
+  background: transparent;
+  border-bottom: 1pt solid #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  resize: none;
+  outline: none;
+  color: #ccc;
+  font-family: Roboto;
+  margin: 10pt 0;
+  font-size: 12pt;
+  width: calc(100% - 45pt);
+  height: 70pt
+}
+
+.quoteMore {
+  text-align: center;
+}
+
+.quoteMore > div {
+  text-align: left;
+}
+
+.quoteMore > div > h1 {
+  text-align: left;
+  font-weight: 400;
+  font-size: 14pt;
+  margin: 30pt 0 0 20pt;
+  border-bottom: 1pt solid #777;
+  display: inline-block;
+  color: #ccc;
+}
+
+.material-form .formButton {
+  width: calc(100% - 40pt);
+  padding: 13pt;
+  margin: 34pt 0 10pt 0;
+  color: #ccc;
+  background: rgba(255, 255, 255, 0.0725);
+  border: 2pt solid #fff;
+  border-radius: 100pt;
+  font-size: 15pt;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+}
+.material-form .formButton:hover {
+  color: #222;
+  background: #999;
+}
+
+.points {
+  text-align: left;
+  font-family: roboto;
+  font-size: 2em;
+  font-weight: 300;
+  color: #3f3f3f;
+}
+
+.points > li {
+  margin-top: 5pt;
+}
+
+.boxx {
+  border: 1px solid #9f9f9f;
+  text-align: center;
+  display: inline-block;
+border-radius: 10pt;
+padding: 15pt 0 15pt 0;
+}

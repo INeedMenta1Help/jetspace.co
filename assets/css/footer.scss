@@ -1,0 +1,29 @@
+footer {
+	display: inline-flex;
+	width: 100%;
+	background: #e4e4e4;
+	filter: drop-shadow( 0 5px 6pt rgba(0, 0, 0, 0.6));
+	padding: 20pt 30pt 20pt 30pt;
+	font-size: 13pt;
+	color: #666;
+	font-weight: 400;
+}
+.footLeft {
+	float: left;
+}
+.footRight {
+	float: right;
+}
+.footLink {
+	color: #999;
+	border-bottom: 2pt dotted;
+	padding: .5pt 0;
+	transition: all .2s ease;
+	margin: 0 5pt;
+}
+.footLink:hover {
+	color: #666;
+}
+footer span, .tinytype {
+	display: inline-block;
+}

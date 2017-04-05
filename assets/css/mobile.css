@@ -1,0 +1,37 @@
+@media (max-width: 1290px) {
+
+	.ContentContainer {
+		padding: 0 0 50pt 0;
+	}
+
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 900px) {
+    /*[class*="sec"] {
+        font-size: 1.2em;
+    }*/
+		.container, .ContentContainer {
+			padding: 0 4rem !important;
+		}
+		nav a {
+		  font-size: 1.2em !important;
+		}
+		/*.index .nav {
+		  top: calc(100% - 6rem) !important;
+		}*/
+		.nav {
+			height: 6rem !important;
+		}
+		nav ul li {
+		  padding: calc(5em / 2) 0 !important;
+			overflow: hidden !important;
+		}
+		nav ul {
+			margin-bottom: 0 !important;
+		}
+		.pictureList img {
+			width: 10rem;
+			margin: 2em calc(50% - 5rem);
+		}
+}
