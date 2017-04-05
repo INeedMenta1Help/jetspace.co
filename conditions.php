@@ -113,9 +113,9 @@
 
                   2.3 We are not responsible for any damages caused by hackers or malicious software.<br>
 
-                  2.4 You acknowledge the prices advertised are estimates.<br>
+                  2.4 You acknowledge that the prices advertised are estimates.<br>
 
-                  2.5 Any refunds made will only be partial in proportion to the hours already worked<br>
+                  2.5 Any refunds made will only be partial in proportion to the hours already worked.<br>
                    </p>
              </div>
            </div>
