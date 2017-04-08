@@ -1,3 +1,6 @@
-# payload stuff #
+# payload stuff for webhooks #
 pull.sh
 payload.php
+
+# Useless
+userpage/
