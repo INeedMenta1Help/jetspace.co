@@ -1,3 +1,0 @@
-[09-Jun-2016 10:59:47 UTC] PHP Fatal error:  Call to undefined function deactivate_plugins() in /home/apoapsisam/public_html/userpage/wp-content/plugins/wp-easy-mode/includes/functions.php on line 304
-[09-Jun-2016 17:28:20 UTC] PHP Fatal error:  Call to a member function display() on a non-object in /home/apoapsisam/public_html/userpage/wp-admin/includes/class-wp-upgrader-skins.php on line 486
-[09-Jun-2016 17:55:04 UTC] PHP Fatal error:  Call to a member function display() on a non-object in /home/apoapsisam/public_html/userpage/wp-admin/includes/class-wp-upgrader-skins.php on line 486

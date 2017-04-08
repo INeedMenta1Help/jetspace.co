@@ -1,2 +1,0 @@
-[09-Jun-2016 17:50:49 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apoapsisam/public_html/userpage/wp-content/themes/twentysixteen/index.php on line 1
-[09-Jun-2016 17:51:03 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apoapsisam/public_html/userpage/wp-content/themes/twentysixteen/index.php on line 17
