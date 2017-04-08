@@ -64,7 +64,7 @@
     <div id="errorMsg">
     	<span>Error: file not found.</span>
     	<span>404</span>
-    	<span>Uh-oh, you're lost.</span>
+    	<span>Uh-oh, you're lost!</span>
     </div>
   </body>
 </html>

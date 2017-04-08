@@ -141,10 +141,10 @@
         <div class="spacer"></div>
        </div>
 
- <?php include 'footer.php'; ?>
- <?php include 'scripts.php'; ?>
+    <?php include 'footer.php'; ?>
+    <?php include 'scripts.php'; ?>
+    <script>
     $("#slideshow > div:gt(0)").hide();
-
     setInterval(function() {
       $('#slideshow > div:first')
         .fadeOut(2000)
@@ -153,6 +153,6 @@
         .end()
         .appendTo('#slideshow');
     },  6000);
-  </script>
+    </script>
   </body>
 </html>
