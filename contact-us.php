@@ -122,7 +122,7 @@
               <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>Email us for support -            <a class="link" href="mailto:info@jetspace.co"        />info@jetspace.co    </a></p></div>
               <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>Follow us on twitter -            <a class="link" href="https://twitter.com/jetspaceweb" >@jetspaceweb        </a></p></div>
               <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>Discover us on ello -             <a class="link" href="https://ello.co/jetspaceweb"     >@jetspaceweb        </a></p></div>
-              <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>'Git' a hold of us at -           <a class="link" href="https://github.com/jetspace"     >@jetspace           </a></p></div>
+              <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>'Git' a hold of us at -           <a class="link" href="https://github.com/jetspace-LTD"     >@jetspace           </a></p></div>
               <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>Call us at - 07956256593</p></div>
             </div>
            </div>
