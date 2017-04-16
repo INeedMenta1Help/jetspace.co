@@ -2,7 +2,7 @@
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8" />
-    <title>T&C | JetSpace</title><!-- !EDIT -->
+    <title>T&amp;C | JetSpace</title><!-- !EDIT -->
     <meta name="description" content="Building your Websites. UX/UI and Web App Development" /><!-- !EDIT -->
     <meta property="og:url" content="http://JetSpace.co/" /><!-- Don't give file name if DirectoryIndex (leave blanl if normal page) -->
     <meta property="og:image" content="http://JetSpace.co/assets/media/images/content/thumbnail.png" />
