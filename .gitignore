@@ -2,6 +2,13 @@
 pull.sh
 payload.php
 
+# Private files
+phpinfo.php
+layout-styles.css
+robots.txt
+urllist.txt
+cPanel/
+
 # OS files
 .DS_Store
 .DS_Store?
