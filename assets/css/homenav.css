@@ -1,5 +1,5 @@
 .nav {
-  position: absolute;
+  position: fixed;
   top: 1.8em;
   height: 60pt;
   z-index: 999;
