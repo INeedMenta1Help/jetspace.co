@@ -1,12 +1,11 @@
 .nav {
   position: absolute;
-  top: calc(100% - 60pt);
+  top: 1;
   height: 60pt;
   z-index: 999;
   overflow: hidden;
-  width: 100%;
-  background: #fff;
-  border-bottom: 1px solid #ddd;
+  width: 60%;
+  right: 0;
 }
 nav {
   height: 100%;
@@ -14,8 +13,8 @@ nav {
 }
 nav a {
   font-family: Montserrat;
-  font-size: 2.4em;
-  color: #333;
+  font-size: 2em;
+  color: #ddd;
   text-decoration: none;
   border: none;
   filter: none;
@@ -30,7 +29,7 @@ nav ul {
 }
 nav ul li {
   display: inline-flex;
-  padding: calc( (60pt / 2) - 10pt ) 0 calc( (60pt / 2) - 10pt ) 0;
+  padding: 2.5em;
   text-transform: uppercase;
   flex-grow: 1;
 }
