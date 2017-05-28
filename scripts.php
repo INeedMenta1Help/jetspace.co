@@ -87,8 +87,8 @@
 
   var cardOneImg   = "/assets/media/images/icons/browser.svg";
   var cardTwoImg   = "/assets/media/images/icons/info.svg";
-  var cardThreeImg = "/assets/media/images/icons/news.svg";
-  var cardFourImg  = "/assets/media/images/icons/business.svg";
+  var cardThreeImg = "/assets/media/images/icons/register.svg";
+  var cardFourImg  = "/assets/media/images/icons/hotel.svg";
   var cardFiveImg  = "/assets/media/images/icons/e-shop.svg";
 
   $("#pageSelecter1").click(function() {

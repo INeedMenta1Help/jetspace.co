@@ -165,7 +165,7 @@
               </section>
               <div style="display: inline; visibilty: hidden;" class="pageTypeHiddenInput"></div>
               <section class="getPageMessage material-form-field">
-                <h4>Any additional information?</h4>
+                <h4>Information about the site:</h4>
                 <textarea name="websiteNotes"></textarea>
                 <div style="margin-bottom: -15pt; margin-top: 5pt;">
                    <input type="checkbox" class="check" required style="padding-top: 10pt;">
