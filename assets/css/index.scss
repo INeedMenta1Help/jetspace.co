@@ -136,7 +136,7 @@
 	height: 10em;
   width: 100%;
   position: absolute;
-  top: calc(60% - 10em);
+  top: calc(40% - 10em);
 }
 #quotes {
   position: relative;
@@ -155,3 +155,5 @@
 }
 #quotes > div > i, h4 {
 	font-weight: 200;
+	font-family: Roboto;
+	font-size: 10em;
