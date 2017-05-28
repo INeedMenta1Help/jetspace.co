@@ -61,8 +61,8 @@
     <header style='position: fixed; top:0;' class='header'>
 
       <script>
-    			var pauseT = 800;
-    			var speed = 100;
+    			var pauseT = 5000;
+    			var speed = 800;
     			setInterval(function() {
     				$('#quotes > div:first')
     					.animate({ 'opacity': 0 }, speed)
