@@ -1,6 +1,6 @@
 .nav {
   position: absolute;
-  top: 1;
+  top: 1em;
   height: 60pt;
   z-index: 999;
   overflow: hidden;
@@ -39,10 +39,8 @@ a {
 nav ul li div {
   display: inline-block;
   width: 100%;
-  border-left: 1pt solid #eee;
 }
 nav ul li:last-child div {
-  border-right: 1pt solid #eee;
 }
 nav ul li div a {
   text-decoration: none;
