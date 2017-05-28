@@ -148,12 +148,14 @@
   position: absolute;
   top: 10em;
   left: 0;
+	padding-left: 10%;
+  padding-right: 10%;
 	width: 100%;
 	color: rgba(255, 255, 255, 0.8);
 	text-align: center;
 	opacity: 0;
 }
-#quotes > div > i, h4 {
+#quotes > div > i, {
 	font-weight: 200;
 	font-family: Roboto;
-	font-size: 10em;
+	font-size: 5em;
