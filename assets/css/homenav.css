@@ -2,7 +2,7 @@
   position: fixed;
   top: 1.8em;
   height: 60pt;
-  z-index: 999;
+  z-index: 2;
   overflow: hidden;
   width: 60%;
   right: 1em;
