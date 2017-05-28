@@ -1,11 +1,11 @@
 .nav {
   position: absolute;
-  top: 1em;
+  top: 1.8em;
   height: 60pt;
   z-index: 999;
   overflow: hidden;
   width: 60%;
-  right: 0;
+  right: 1em;
 }
 nav {
   height: 100%;
