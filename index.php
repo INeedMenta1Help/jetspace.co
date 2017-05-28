@@ -72,7 +72,7 @@
     					.appendTo('#quotes');
     			},  pauseT);
     		</script>
-      <div class='mainquote' style='position: absolute; top: 0; bottom: 0; left: 0; right: 0;'>
+      <div class='mainquote'>
         <div id="quotes">
 				<div style="opacity:1;">
 					 <i>Cheapest quality Web Designers out there.<h4> - 2017</h4></i>
