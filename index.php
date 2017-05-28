@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/mobile.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/master.scss" />
-    <link rel="stylesheet" type="text/css" href="assets/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/homenav.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/misc.css" />
     <!-- Page specific CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/index.scss" />
@@ -92,7 +92,17 @@
       </div>
 
     </header>
-    <?php include 'nav.php'; ?>
+
+    <nav class="nav2">
+        <ul>
+          <li><div><a href="/"          >Home       </a></div></li>
+          <li><div><a href="/websites"  >Websites   </a></div></li>
+          <li><div><a href="/portfolio" >Portfolio  </a></div></li>
+          <li><div><a href="/about"     >About      </a></div></li>
+          <li><div><a href="/contact-us">Contact Us </a></div></li>
+        </ul>
+    </nav>
+
     <div id="websites" class="about">
       <div class="container ContentContainer">
         <div class="row">
