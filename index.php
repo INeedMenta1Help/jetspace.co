@@ -61,17 +61,16 @@
     <header style='position: fixed; top:0;' class='header'>
 
       <div class='background' style='position: absolute; top: 0; bottom: 0; left: 0; right: 0;'></div>
-      <div class='logo' style="z-index: 9; position: absolute; top: 15%;height: 40%; width: 40%; left: 30%;">
+      <div class='logo' style="z-index: 9; position: absolute; height: 40%; left: 13em; top: 1em;">
         <object type='image/svg+xml' data='assets/media/images/content/logo.svg' style='width: 100%; height: 100%; margin-top: -60pt;'></object>
       </div>
 			<div>
 				<img src="/assets/media/images/content/ApoapsisLG.svg" style="
 						position: absolute;
-						width: 18%;
-						top: 10%;
-						left: 41%;
+						width: 8%;
+						top: 1em;
+						left: 2em;
 						z-index: 1;
-						/* opacity: 0.8; */
 				">
 			</div>
       <div style="position: absolute; z-index: 10; left: 23%; top: 30%">
