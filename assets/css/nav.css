@@ -1,11 +1,12 @@
 .nav {
   position: absolute;
-  top: 1em;
+  top: calc(100% - 60pt);
   height: 60pt;
   z-index: 999;
   overflow: hidden;
-  width: 60%;
-  right: 0;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
 }
 nav {
   height: 100%;
@@ -13,8 +14,8 @@ nav {
 }
 nav a {
   font-family: Montserrat;
-  font-size: 2em;
-  color: #ddd;
+  font-size: 2.4em;
+  color: #333;
   text-decoration: none;
   border: none;
   filter: none;
@@ -29,7 +30,7 @@ nav ul {
 }
 nav ul li {
   display: inline-flex;
-  padding: 2.5em;
+  padding: calc( (60pt / 2) - 10pt ) 0 calc( (60pt / 2) - 10pt ) 0;
   text-transform: uppercase;
   flex-grow: 1;
 }
@@ -39,8 +40,10 @@ a {
 nav ul li div {
   display: inline-block;
   width: 100%;
+  border-left: 1pt solid #eee;
 }
 nav ul li:last-child div {
+  border-right: 1pt solid #eee;
 }
 nav ul li div a {
   text-decoration: none;
