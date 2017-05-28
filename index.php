@@ -60,14 +60,39 @@
 
     <header style='position: fixed; top:0;' class='header'>
 
-      <div class='background' style='position: absolute; top: 0; bottom: 0; left: 0; right: 0;'></div>
+      <script>
+    			var pauseT = 800;
+    			var speed = 100;
+    			setInterval(function() {
+    				$('#quotes > div:first')
+    					.animate({ 'opacity': 0 }, speed)
+    					.next()
+    					.animate({ 'opacity': 1 }, speed)
+    					.end()
+    					.appendTo('#quotes');
+    			},  pauseT);
+    		</script>
+      <div class='mainquote' style='position: absolute; top: 0; bottom: 0; left: 0; right: 0;'>
+        <div id="quotes">
+				<div style="opacity:1;">
+					 <i>Cheapest quality Web Designers out there.<h4> - 2017</h4></i>
+				</div>
+				 <div>
+					  <i>"I'll certanly be recommending this to all of my friends!"<h4> - @EnglishMilk</h4></i>
+				</div>
+				<div>
+					 <i>"Amazing!, Absolutely Amazing!"<h4> - @HarryHockton</h4></i>
+				</div>
+			</div>
+		</div>
+
       <div class='logo' style="z-index: 9; position: absolute; height: 40%; left: 13em; top: 1em;">
         <object type='image/svg+xml' data='assets/media/images/content/logo.svg' style='width: 100%; height: 100%; margin-top: -60pt;'></object>
       </div>
 			<div>
 				<img src="/assets/media/images/content/ApoapsisLG.svg" style="
 						position: absolute;
-						width: 8%;
+						height: 16%;
 						top: 1em;
 						left: 2em;
 						z-index: 1;
