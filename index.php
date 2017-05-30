@@ -38,6 +38,8 @@
     <!--Retrive head tags[end] -->
 
     <!--JavaScript[start]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js" charset="utf-8"></script>
+
     <script type="text/javascript" src="assets/js/lib/framework.js"></script>
     <script type="text/javascript" src="assets/js/misc/misc.js"></script>
     <!-- JavaScript[end] -->
@@ -221,5 +223,6 @@
     <?php include 'footer.php'; ?>
     </div>
     <?php include 'scripts.php'; ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js" charset="utf-8"></script>
   </body>
 </html>
