@@ -69,10 +69,10 @@
 					 <i>Cheapest quality Web Designers out there.<h4> - 2017</h4></i>
 				</div>
 				 <div>
-					  <i>"I'll certanly be recommending this to all of my friends!"<h4> - @EnglishMilk</h4></i>
+					  <i>"I'll certainly be recommending this to all of my friends!"<h4> - @EnglishMilk</h4></i>
 				</div>
 				<div>
-					 <i>"Amazing!, Absolutely Amazing!"<h4> - @HarryHockton</h4></i>
+					 <i>"Amazing! Absolutely Amazing!"<h4> - @HarryHockton</h4></i>
 				</div>
 			</div>
 		</div>
