@@ -49,7 +49,7 @@
 	  <div class="loading">Loading</div>
   </div>
 
-    <header style='position: fixed; top:0;' class='header'>
+    <header style='position: fixed; top:0;' class='header' id="header">
 
       <script>
     			var pauseT = 5000;
@@ -90,7 +90,11 @@
      		 </div>
     		</div>
   		</div>
-
+      <?php
+        $files = glob('./assets/backgrounds/*.php');
+        $random_file = $files[array_rand($files)];
+        include($random_file);
+      ?>
       <div class="scroll">
         <div class="mouse">
 
@@ -100,11 +104,6 @@
 
         </div>
       </div>
-      <?php
-        $files = glob('./assets/backgrounds/*.php');
-        $random_file = $files[array_rand($files)];
-        include($random_file);
-      ?>
     </header>
 
     <div class="homenav">
