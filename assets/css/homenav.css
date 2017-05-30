@@ -25,7 +25,6 @@
 }
 .homenav ul li {
   display: inline-flex;
-  padding: 2.5em;
   text-transform: uppercase;
   flex-grow: 1;
 }
