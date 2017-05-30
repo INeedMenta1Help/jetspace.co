@@ -15,7 +15,6 @@
     filter: grayscale(100%);
   }
 </style>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js" charset="utf-8"></script>
 <script type="text/javascript">
 container = document.getElementById('header');
 //document.body.appendChild(container);
