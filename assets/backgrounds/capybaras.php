@@ -1,10 +1,10 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js" charset="utf-8"></script>
-<canvas id="capybaras"></canvas><style media="screen">
-  body, html{
+<canvas id="capybaras"></canvas>
+<style media="screen">
+  body, html {
     margin: 0px;
     padding: 0px;
   }
-  canvas{
+  canvas {
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -15,7 +15,11 @@
     filter: grayscale(100%);
   }
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js" charset="utf-8"></script>
 <script type="text/javascript">
+container = document.getElementById('header');
+//document.body.appendChild(container);
+
   var scene, camera, renderer, capys;
   var t = 0;
   window.onload = function(){
@@ -30,12 +34,12 @@
 
   function init() {
   holdObj = new THREE.Group();
-  renderer = new THREE.WebGLRenderer({canvas: capybaras, antialias: true});
+  renderer = new THREE.WebGLRenderer(/*{canvas: capybaras, antialias: true}*/);
   scene = new THREE.Scene();
   camera = new THREE.PerspectiveCamera(20, window.innerWidth/window.innerHeight, 0.1, 1000);
 
   renderer.setSize(window.innerWidth, window.innerHeight);
-  document.body.appendChild(renderer.domElement);
+  container.appendChild(renderer.domElement);
   camera.position.z = 20;
   scene.background = new THREE.Color(0x222222);
 
