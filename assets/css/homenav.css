@@ -50,6 +50,7 @@ a {
   left: 2em;
   z-index: 1;
   width: 10em;
+  filter: drop-shadow(0 0 46px #666);
 }
 
 .aposvg {
