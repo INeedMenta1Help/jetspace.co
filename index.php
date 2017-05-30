@@ -100,7 +100,11 @@
 
         </div>
       </div>
-
+      <?php
+        $files = glob('./assets/backgrounds/*.php');
+        $random_file = $files[array_rand($files)];
+        include($random_file);
+      ?>
     </header>
 
     <div class="homenav">
