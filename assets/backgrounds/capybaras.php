@@ -1,4 +1,4 @@
-<canvas id="capybaras"></canvas>
+<canvas id="capybaras" class="hellu"></canvas>
 <style media="screen">
   body, html {
     margin: 0px;
@@ -34,7 +34,7 @@ container = document.getElementById('header');
 
   function init() {
   holdObj = new THREE.Group();
-  renderer = new THREE.WebGLRenderer(/*{canvas: capybaras, antialias: true}*/);
+  renderer = new THREE.WebGLRenderer({canvas: capybaras, antialias: true});
   scene = new THREE.Scene();
   camera = new THREE.PerspectiveCamera(20, window.innerWidth/window.innerHeight, 0.1, 1000);
 
