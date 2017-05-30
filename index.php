@@ -103,7 +103,7 @@
 
     </header>
 
-    <nav class="nav">
+    <nav class="homenav">
         <ul>
           <li><div><a href="/"          >Home       </a></div></li>
           <li><div><a href="/websites"  >Websites   </a></div></li>
