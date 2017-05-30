@@ -103,7 +103,7 @@
 
     </header>
 
-    <nav class="homenav">
+    <div class="homenav">
         <ul>
           <li><div><a href="/"          >Home       </a></div></li>
           <li><div><a href="/websites"  >Websites   </a></div></li>
@@ -111,7 +111,7 @@
           <li><div><a href="/about"     >About      </a></div></li>
           <li><div><a href="/contact-us">Contact Us </a></div></li>
         </ul>
-    </nav>
+    </div>
 
     <div id="websites" class="about">
       <div class="container ContentContainer">
