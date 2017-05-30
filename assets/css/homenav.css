@@ -1,4 +1,4 @@
-.nav {
+.homenav {
   position: fixed;
   top: 1.8em;
   height: 60pt;
@@ -7,11 +7,7 @@
   width: 60%;
   right: 1em;
 }
-nav {
-  height: 100%;
-  transition: box-shadow .25s ease;
-}
-nav a {
+.homenav a {
   font-family: Montserrat;
   font-size: 2em;
   color: #ddd;
@@ -19,15 +15,15 @@ nav a {
   border: none;
   filter: none;
 }
-nav a:hover {
+.homenav a:hover {
   filter: none;
 }
-nav ul {
+.homenav ul {
   display: flex;
   text-align: center;
   padding: 0;
 }
-nav ul li {
+.homenav ul li {
   display: inline-flex;
   padding: 2.5em;
   text-transform: uppercase;
@@ -36,16 +32,16 @@ nav ul li {
 a {
   transition: all .2s ease;
 }
-nav ul li div {
+.homenav ul li div {
   display: inline-block;
   width: 100%;
 }
-nav ul li:last-child div {
+.homenav ul li:last-child div {
 }
-nav ul li div a {
+.homenav ul li div a {
   text-decoration: none;
 }
-nav ul li div a:hover {
+.homenav ul li div a:hover {
   color: #999;
 }
 
@@ -66,7 +62,7 @@ nav ul li div a:hover {
 }
 
 @media only screen and (max-width: 1225px) {
-  nav a {
+  .homenav a {
     font-family: Montserrat;
     font-size: 1.7em;
     color: #ddd;
@@ -75,7 +71,7 @@ nav ul li div a:hover {
     filter: none;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 980px) {
     .apolg {
       position: absolute;
       height: 13%;
@@ -91,7 +87,7 @@ nav ul li div a:hover {
       top: 1em;
       width: 20%;
     }
-    nav a {
+    .homenav a {
       font-family: Montserrat;
       font-size: 1.25em;
       color: #ddd;
@@ -99,7 +95,7 @@ nav ul li div a:hover {
       border: none;
       filter: none;
     }
-    .nav {
+    .homenav {
       position: fixed;
       top: 1.8em;
       height: 60pt;
@@ -125,7 +121,7 @@ nav ul li div a:hover {
     left: 9em;
     width: 20%;
   }
-  nav a {
+  .homenav a {
     font-family: Montserrat;
     font-size: 1.25em;
     color: #ddd;
@@ -133,7 +129,7 @@ nav ul li div a:hover {
     border: none;
     filter: none;
   }
-  .nav {
+  .homenav {
     position: fixed;
     top: 2.8em;
     height: 60pt;
@@ -144,7 +140,32 @@ nav ul li div a:hover {
   }
 }
 
-@media (max-width: 700px) {
-	.intro .container {
-		margin-top: 20vh;
+@media (max-width: 550px) {
+  .apolg {
+    display: none;
+  }
+  .aposvg {
+    z-index: 9;
+    position: absolute;
+    height: 37%;
+    left: 1.3em;
+    width: 26%;
+  }
+  .homenav a {
+    font-family: Montserrat;
+    font-size: 1.25em;
+    color: #ddd;
+    text-decoration: none;
+    border: none;
+    filter: none;
+  }
+  .homenav {
+    position: fixed;
+    top: 1.4em;
+    height: 60pt;
+    z-index: 2;
+    overflow: hidden;
+    width: 67%;
+    right: 1em;
+  }
 	}
