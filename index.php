@@ -16,20 +16,11 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/mobile.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/master.scss" />
-    <link rel="stylesheet" type="text/css" href="assets/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/homenav.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/misc.css" />
     <!-- Page specific CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/index.scss" />
     <!-- Local CSS[end] -->
-
-    <style>
-    @media only screen and (max-width: 900px) {
-    		.nav {
-    		  top: calc(100% - 6rem);
-    		}
-    }
-
-    </style>
 
     <!--External css sources[start]-->
     <link rel="stylesheet prefetch" href="//daneden.github.io/animate.css/animate.min.css" /> <!--ANIMATIONS-->
@@ -60,19 +51,37 @@
 
     <header style='position: fixed; top:0;' class='header'>
 
-      <div class='background' style='position: absolute; top: 0; bottom: 0; left: 0; right: 0;'></div>
-      <div class='logo' style="z-index: 9; position: absolute; top: 15%;height: 40%; width: 40%; left: 30%;">
+      <script>
+    			var pauseT = 5000;
+    			var speed = 800;
+    			setInterval(function() {
+    				$('#quotes > div:first')
+    					.animate({ 'opacity': 0 }, speed)
+    					.next()
+    					.animate({ 'opacity': 1 }, speed)
+    					.end()
+    					.appendTo('#quotes');
+    			},  pauseT);
+    		</script>
+      <div class='mainquote'>
+        <div id="quotes">
+				<div style="opacity:1;">
+					 <i>Cheapest quality Web Designers out there.<h4> - 2017</h4></i>
+				</div>
+				 <div>
+					  <i>"I'll certainly be recommending this to all of my friends!"<h4> - @EnglishMilk</h4></i>
+				</div>
+				<div>
+					 <i>"Amazing! Absolutely Amazing!"<h4> - @HarryHockton</h4></i>
+				</div>
+			</div>
+		</div>
+
+      <div class='logo, aposvg'>
         <object type='image/svg+xml' data='assets/media/images/content/logo.svg' style='width: 100%; height: 100%; margin-top: -60pt;'></object>
       </div>
 			<div>
-				<img src="/assets/media/images/content/ApoapsisLG.svg" style="
-						position: absolute;
-						width: 18%;
-						top: 10%;
-						left: 41%;
-						z-index: 1;
-						/* opacity: 0.8; */
-				">
+				<img class="apolg" src="/assets/media/images/content/ApoapsisLG.svg">
 			</div>
       <div style="position: absolute; z-index: 10; left: 23%; top: 30%">
         <div>
@@ -93,7 +102,17 @@
       </div>
 
     </header>
-    <?php include 'nav.php'; ?>
+
+    <div class="homenav">
+        <ul>
+          <li><div><a href="/"          >Home       </a></div></li>
+          <li><div><a href="/websites"  >Websites   </a></div></li>
+          <li><div><a href="/portfolio" >Portfolio  </a></div></li>
+          <li><div><a href="/about"     >About      </a></div></li>
+          <li><div><a href="/contact-us">Contact Us </a></div></li>
+        </ul>
+    </div>
+
     <div id="websites" class="about">
       <div class="container ContentContainer">
         <div class="row">
