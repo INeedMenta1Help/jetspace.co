@@ -22,15 +22,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/index.scss" />
     <!-- Local CSS[end] -->
 
-    <style>
-    @media only screen and (max-width: 900px) {
-    		.nav {
-    		  top: calc(100% - 6rem);
-    		}
-    }
-
-    </style>
-
     <!--External css sources[start]-->
     <link rel="stylesheet prefetch" href="//daneden.github.io/animate.css/animate.min.css" /> <!--ANIMATIONS-->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" /><!--ICONS-->
@@ -86,17 +77,11 @@
 			</div>
 		</div>
 
-      <div class='logo' style="z-index: 9; position: absolute; height: 40%; left: 13em; top: 1em;">
+      <div class='logo, aposvg'>
         <object type='image/svg+xml' data='assets/media/images/content/logo.svg' style='width: 100%; height: 100%; margin-top: -60pt;'></object>
       </div>
 			<div>
-				<img src="/assets/media/images/content/ApoapsisLG.svg" style="
-						position: absolute;
-						height: 16%;
-						top: 1em;
-						left: 2em;
-						z-index: 1;
-				">
+				<img class="apolg" src="/assets/media/images/content/ApoapsisLG.svg">
 			</div>
       <div style="position: absolute; z-index: 10; left: 23%; top: 30%">
         <div>
