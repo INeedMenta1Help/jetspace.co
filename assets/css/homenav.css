@@ -62,19 +62,14 @@ a {
 
 @media only screen and (max-width: 1225px) {
   .homenav a {
-    font-family: Montserrat;
     font-size: 1.7em;
-    color: #ddd;
-    text-decoration: none;
-    border: none;
-    filter: none;
   }
 }
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1080px) {
     .apolg {
       position: absolute;
       height: 13%;
-      top: 5.0em;
+      top: 1.8em;
       left: 2em;
       z-index: 1;
     }
@@ -91,7 +86,7 @@ a {
     }
     .homenav {
       position: fixed;
-      top: 2.5em;
+      top: 5em;
       height: 60pt;
       z-index: 2;
       overflow: hidden;
@@ -100,15 +95,17 @@ a {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 820px) {
   .apolg {
     height: 10%;
   }
   .aposvg {
     left: 9em;
+    top: inherit;
   }
   .homenav {
     width: 62%;
+    top: 4em;
   }
 }
 
@@ -127,8 +124,13 @@ a {
   }
 	}
 
-  @media (max-width: 450px) {
+  @media (max-width: 480px) {
     .homenav a {
       font-size: 0.95em;
     }
   	}
+    @media (max-width: 400px) {
+      .homenav a {
+        font-size: 0.85em;
+      }
+      }
