@@ -63,19 +63,25 @@
     					.appendTo('#quotes');
     			},  pauseT);
     		</script>
-      <div class='mainquote'>
-        <div id="quotes">
-				<div style="opacity:1;">
-					 <i>Cheapest quality Web Designers out there.<h4> - 2017</h4></i>
-				</div>
-				 <div>
-					  <i>"I'll certainly be recommending this to all of my friends!"<h4> - @EnglishMilk</h4></i>
-				</div>
-				<div>
-					 <i>"Amazing! Absolutely Amazing!"<h4> - @HarryHockton</h4></i>
-				</div>
-			</div>
-		</div>
+        <div class='mainquote'>
+          <div id="quotes">
+  				 <div>
+  					  <i>"I'll certainly be recommending this to my friends!"<h4>- Samuel, @EnglishMilk</h4></i>
+  				</div>
+  				<div>
+  					 <i>"Amazing, just amazing!!"<h4>- @HarryHockton</h4></i>
+  				</div>
+          <div>
+  					 <i>The cheapest, best quality Web Designers out there.<i class="em em---1"></i><h4>Company Review</h4></i>
+  				</div>
+          <div>
+             <i>"Suprisingly the best service i've ever recieved, at such a great price!"<h4>- @CharleeTwigg</h4></i>
+          </div>
+          <div>
+             <i>"Smashing quality at a brilliant price! Top tier stuff."<h4>- @natashaknutsen</h4></i>
+          </div>
+  			</div>
+  		</div>
 
       <div class='logo, aposvg'>
         <object type='image/svg+xml' data='assets/media/images/content/logo.svg' style='width: 100%; height: 100%; margin-top: -60pt;'></object>
