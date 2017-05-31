@@ -40,7 +40,7 @@
 <!-- Retrieve html that is will chage equally over all pages over all pages[start] -->
 <!-- transelement-place you put where you want the included html and transelement-origin is only placed once in the source file and not on this page -->
 <!-- Retrive html that is static ovrer all pages[end] -->
-
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet" />
 <!-- External font[start] -->
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>

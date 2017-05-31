@@ -68,7 +68,7 @@
       <div class='mainquote'>
         <div id="quotes">
 				<div style="opacity:1;">
-					 <i>Cheapest quality Web Designers out there.<h4>Company Review</h4></i>
+					 <i>Cheapest quality Web Designers out there.<i class="em em---1"></i><h4>Company Review</h4></i>
 				</div>
 				 <div>
 					  <i>"I'll certainly be recommending this to all of my friends!"<h4>- Samuel, @EnglishMilk</h4></i>
