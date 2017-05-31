@@ -76,6 +76,12 @@
 				<div>
 					 <i>"Amazing completion time and quality!"<h4>- Harry, @HarryHockton</h4></i>
 				</div>
+        <div>
+           <i>"Suprisingly the best service i've ever recieved, at such a great price!"<h4>- @CharleeTwigg</h4></i>
+        </div>
+        <div>
+           <i>"Smashing quality at a brilliant price! Top tier stuff."<h4>- @natashaknutsen</h4></i>
+        </div>
 			</div>
 		</div>
 
@@ -100,9 +106,9 @@
       <div class="scroll">
         <div class="mouse">
 
-          <div class="mouse-icon">
+          <a href="#websites"><div class="mouse-icon">
             <span class="mouse-wheel"></span>
-          </div>
+          </div></a>
 
         </div>
       </div>
@@ -118,15 +124,20 @@
         </ul>
     </div>
 
+<!-- START OF INFO -->
     <div id="websites" class="about">
       <div class="container ContentContainer">
         <div class="row">
           <div class="col-md-12">
             <div class="spacer"></div>
              <div class="webConstruct">
-              <p>Bespoke Web Design, down to the <i class="highlight">finest</i> details.</p>
+              <p class="sec2h">We make professional websites at the <i class="highlight">cheapest</i> prices.</p>
+
+              <div class="spacer"></div>
               <img src="https://assets-cdn.github.com/images/modules/site/open-source-ill-watch.png" />
-              <p>We are serious about web design & development.</p>
+              <div class="spacer"></div>
+
+              <p class="sec2m" style="text-align: left">We are serious about web design & development.</p>
               <div class="Wdescription" >
                 <span>Let's face it, if you're running a serious business these days or even just a source for
                   information, an adequate website is crucial. Jetspace is a web design and development company that
