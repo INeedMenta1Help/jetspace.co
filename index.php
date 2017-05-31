@@ -38,6 +38,8 @@
     <!--Retrive head tags[end] -->
 
     <!--JavaScript[start]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js" charset="utf-8"></script>
+
     <script type="text/javascript" src="assets/js/lib/framework.js"></script>
     <script type="text/javascript" src="assets/js/misc/misc.js"></script>
     <!-- JavaScript[end] -->
@@ -49,7 +51,7 @@
 	  <div class="loading">Loading</div>
   </div>
 
-    <header style='position: fixed; top:0;' class='header'>
+    <header style='position: fixed; top:0;' class='header' id="header">
 
       <script>
     			var pauseT = 5000;
@@ -63,25 +65,25 @@
     					.appendTo('#quotes');
     			},  pauseT);
     		</script>
-        <div class='mainquote'>
-          <div id="quotes">
-  				 <div>
-  					  <i>"I'll certainly be recommending this to my friends!"<h4>- Samuel, @EnglishMilk</h4></i>
-  				</div>
-  				<div>
-  					 <i>"Amazing, just amazing!!"<h4>- @HarryHockton</h4></i>
-  				</div>
-          <div>
-  					 <i>The cheapest, best quality Web Designers out there.<i class="em em---1"></i><h4>Company Review</h4></i>
-  				</div>
-          <div>
-             <i>"Suprisingly the best service i've ever recieved, at such a great price!"<h4>- @CharleeTwigg</h4></i>
-          </div>
-          <div>
-             <i>"Smashing quality at a brilliant price! Top tier stuff."<h4>- @natashaknutsen</h4></i>
-          </div>
-  			</div>
-  		</div>
+      <div class='mainquote'>
+        <div id="quotes">
+				 <div>
+					  <i>"I'll certainly be recommending this to my friends!"<h4>- Samuel, @EnglishMilk</h4></i>
+				</div>
+				<div>
+					 <i>"Amazing, just amazing!!"<h4>- @HarryHockton</h4></i>
+				</div>
+        <div>
+					 <i>The cheapest, best quality Web Designers out there.<i class="em em---1"></i><h4>Company Review</h4></i>
+				</div>
+        <div>
+           <i>"Suprisingly the best service i've ever recieved, at such a great price!"<h4>- @CharleeTwigg</h4></i>
+        </div>
+        <div>
+           <i>"Smashing quality at a brilliant price! Top tier stuff."<h4>- @natashaknutsen</h4></i>
+        </div>
+			</div>
+		</div>
 
       <div class='logo, aposvg'>
         <object type='image/svg+xml' data='assets/media/images/content/logo.svg' style='width: 100%; height: 100%; margin-top: -60pt;'></object>
@@ -96,17 +98,20 @@
      		 </div>
     		</div>
   		</div>
-
+      <?php
+        $files = glob('./assets/backgrounds/*.php');
+        $random_file = $files[array_rand($files)];
+        include($random_file);
+      ?>
       <div class="scroll">
         <div class="mouse">
 
-          <div class="mouse-icon">
+          <a href="#websites"><div class="mouse-icon">
             <span class="mouse-wheel"></span>
-          </div>
+          </div></a>
 
         </div>
       </div>
-
     </header>
 
     <div class="homenav">
@@ -119,15 +124,20 @@
         </ul>
     </div>
 
+<!-- START OF INFO -->
     <div id="websites" class="about">
       <div class="container ContentContainer">
         <div class="row">
           <div class="col-md-12">
             <div class="spacer"></div>
              <div class="webConstruct">
-              <p>Bespoke Web Design, down to the <i class="highlight">finest</i> details.</p>
+              <p class="sec2h">We make professional websites at the <i class="highlight">cheapest</i> prices.</p>
+
+              <div class="spacer"></div>
               <img src="https://assets-cdn.github.com/images/modules/site/open-source-ill-watch.png" />
-              <p>We are serious about web design & development.</p>
+              <div class="spacer"></div>
+
+              <p class="sec2m" style="text-align: left">We are serious about web design & development.</p>
               <div class="Wdescription" >
                 <span>Let's face it, if you're running a serious business these days or even just a source for
                   information, an adequate website is crucial. Jetspace is a web design and development company that
