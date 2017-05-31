@@ -67,14 +67,14 @@
     		</script>
       <div class='mainquote'>
         <div id="quotes">
+				<div style="opacity:1;">
+					 <i>Cheapest quality Web Designers out there.<i class="em em---1"></i><h4>Company Review</h4></i>
+				</div>
 				 <div>
-					  <i>"I'll certainly be recommending this to my friends!"<h4>- Samuel, @EnglishMilk</h4></i>
+					  <i>"I'll certainly be recommending this to all of my friends!"<h4>- Samuel, @EnglishMilk</h4></i>
 				</div>
 				<div>
-					 <i>"Amazing, just amazing!!"<h4>- @HarryHockton</h4></i>
-				</div>
-        <div>
-					 <i>The cheapest, best quality Web Designers out there.<i class="em em---1"></i><h4>Company Review</h4></i>
+					 <i>"Amazing completion time and quality!"<h4>- Harry, @HarryHockton</h4></i>
 				</div>
         <div>
            <i>"Suprisingly the best service i've ever recieved, at such a great price!"<h4>- @CharleeTwigg</h4></i>
