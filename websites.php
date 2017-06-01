@@ -48,8 +48,8 @@
 
     <!--Local CSS[start]-->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/websites.scss" />
-    <link rel="stylesheet" type="text/css" href="assets/css/master.scss" />
+    <link rel="stylesheet" type="text/css" href="assets/css/websites.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/master.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/mobile.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/nav.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/misc.css" />

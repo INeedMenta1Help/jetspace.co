@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="assets/css/footer.scss" />
+		<link rel="stylesheet" type="text/css" href="assets/css/footer.css" />
 	</head>
 <body>
 	<footer>

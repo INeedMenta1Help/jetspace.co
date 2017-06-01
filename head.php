@@ -49,4 +49,4 @@
 <!-- External fonts[end] -->
 
 <!-- Footer CSS[start] -->
-<link href="assets/css/footer.scss" rel="stylesheet" type="text/css" />
+<link href="assets/css/footer.css" rel="stylesheet" type="text/css" />

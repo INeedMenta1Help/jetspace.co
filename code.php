@@ -15,11 +15,11 @@
     <!--Local CSS[start]-->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/mobile.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/master.scss" />
+    <link rel="stylesheet" type="text/css" href="assets/css/master.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/nav.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/misc.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/contact-us.scss" />
-    <link rel="stylesheet" type="text/css" href="assets/css/index.scss" />
+    <link rel="stylesheet" type="text/css" href="assets/css/contact-us.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
 
     <!-- Local CSS[end] -->
 
