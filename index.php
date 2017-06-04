@@ -2,7 +2,7 @@
 <html lang="en" prefix="og: https://ogp.me/ns#">
   <head>
     <meta charset="utf-8" />
-    <title>JetSpace｜Web Design</title>
+    <title>Jetspace｜Web Design</title>
     <meta name="description" content="Jetspace is a web design company that professionally creates and manages bespoke websites that are modern, responsive and most importantly, affordable." />
     <meta property="og:url" content="https://jetspace.co/" /><!-- Don't give file name if DirectoryIndex (leave blanl if normal page) -->
     <meta property="og:image" content="https://jetspace.co/assets/media/images/content/thumbnail.png" />

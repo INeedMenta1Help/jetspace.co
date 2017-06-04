@@ -27,6 +27,24 @@ html, body { min-height: 100vh; width: 100vw; }
   background: #ffb3b3;
 }
 
+::-webkit-scrollbar {
+    background: rgba(55, 55, 55, 0);
+    width: 5pt;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3e3e3e;
+    border-radius: 4pt;
+    width: 5pt;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: #3e3e3e;
+    border-radius: 4pt;
+    height: 5pt;
+}
+
+
 body {
 	background-color: #fff;
 	color: #333;
