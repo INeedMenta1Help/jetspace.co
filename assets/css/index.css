@@ -160,7 +160,14 @@
 	font-family: Roboto;
 	font-size: 4.5em;
 }
-
+@media (max-width: 550px) {
+	#quotes > div > i {
+		font-size: 2em;
+	}
+	.mainquote {
+	  top: calc(40% - 20em);
+	}
+}
 .quick {
 	position: absolute;
   z-index: 8;
