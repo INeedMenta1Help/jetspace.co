@@ -187,3 +187,7 @@
 	border-radius: 9px;
 	background: rgba(50, 50, 50, 0.7);
 }
+.quick .button:hover {
+	background: rgba(255, 255, 255, 0.8);
+	color: #222;
+}
