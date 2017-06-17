@@ -186,9 +186,9 @@
 	padding: 1rem;
 	border-radius: 9px;
 	background: rgba(50, 50, 50, 0.7);
-	-webkit-transition: .15s color ease;
-	-o-transition: .15s color ease;
-	transition: .15s color ease;
+	-webkit-transition: .15s all ease;
+	-o-transition: .15s all ease;
+	transition: .15s all ease;
 }
 .quick .button:hover {
 	background: rgba(255, 255, 255, 0.8);
