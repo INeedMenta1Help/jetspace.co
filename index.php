@@ -85,9 +85,11 @@
 			</div>
 		</div>
     <div class="quick">
-      <div class="button">
-        <span>Get Website</span>
-      </div>
+      <a href="/websites">
+        <div class="button">
+          <span>Get Website</span>
+        </div>
+      </a>
     </div>
 
       <div class='logo, aposvg'>
