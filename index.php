@@ -84,6 +84,13 @@
         </div>
 			</div>
 		</div>
+    <div class="quick">
+      <a href="/websites">
+        <div class="button">
+          <span>Get Website</span>
+        </div>
+      </a>
+    </div>
 
       <div class='logo, aposvg'>
         <object type='image/svg+xml' data='assets/media/images/content/logo.svg' style='width: 100%; height: 100%; margin-top: -60pt;'></object>
