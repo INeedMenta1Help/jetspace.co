@@ -89,7 +89,7 @@
              <div class="sec2t" style="text-align: left; display: inline-block;">
                <p>1.1 We are not liable for any loss of data or business due to either server outage or corruption of storage. <br>
 
-                  1.2 You are not responsible for the protection of your data and should make any necessary backups.<br>
+                  1.2 You are responsible for the protection of your data and should make any necessary backups.<br>
 
                   1.3 You agree to not to use our service for any illegal or malicious purposes.<br>
 
