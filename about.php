@@ -144,11 +144,10 @@
 
                <div class="col-md-10">
                  <p class="sec2m">How do I pay?</p><br>
-                 <p class="sec2t" style="margin-top: -15pt">You pay for the website just before the process begins, we'll send you an
+                 <p class="sec2t" style="margin-top: -15pt">You pay a deposit for the website just before the process begins (30% of the full price), we'll send you an
                    invoice with cost of the site with all the bits and bobs included, you can then choose to pay through any media you like, credit
-                    card transfer or PayPal. At the end of the site being completed we'll let you know just how long the process took, and if the hours took are
-                    less than 10% of the cost, we'll refund you what the left over is (e.g you pay £450 and we only take 42 hours, we refund you £30)
-                    so also don't worry, if you'd like to stop halfway through, you'll only have to pay for the hours that we've put in already. </p>
+                    card transfer or PayPal. At the end of the site being completed we will charge you for the rest of the money and then the site will go live. if you would
+                  like to stop the site before it is finished, you will not have to pay the full price, we will just keep the deposit</p>
                </div>
             </div>
 
