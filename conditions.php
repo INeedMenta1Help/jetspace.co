@@ -87,7 +87,8 @@
                </div>
 
              <div class="sec2t" style="text-align: left; display: inline-block;">
-               <p>1.1 We are not liable for any loss of data or business due to either server outage or corruption of storage. <br>
+               <p>
+                 1.1 We are not liable for any loss of data or business due to either server outage or corruption of storage. <br>
 
                   1.2 You are responsible for the protection of your data and should make any necessary backups.<br>
 
@@ -97,9 +98,11 @@
 
                   1.5 You will not use our service to infringe on the rights of another, or break copyright laws.<br>
 
-                  1.6 You will not use our service to spread:<br><ul>
-                    <li> a) malicious code, computer viruses or anything harmful to a computer system.<br></li>
-                    <li>b) any content which encourages criminal action or use of illegal substances or items.<br></li></ul>
+                  1.6 You will not use our service to spread:<br>
+                  <ul>
+                    <li>a) malicious code, computer viruses or anything harmful to a computer system.<br></li>
+                    <li>b) any content which encourages criminal action or use of illegal substances or items.<br></li>
+                  </ul>
 
                   1.7 We are not liable for the content on your website  if the law deems it unfit.<br>
 
@@ -116,7 +119,11 @@
                   2.4 You acknowledge that the prices advertised are estimates.<br>
 
                   2.5 Any refunds made will only be partial in proportion to the hours already worked.<br>
-                   </p>
+
+                  2.6 Licensing of any data of any sort given to us must comply with the 'GNU GPL-3.0'<br />
+                  (GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007). Anything produced by us originally is under our chosen licence<br />
+                  which is until otherwise stated, the GNU General Public License (version 3.0).
+                </p>
              </div>
            </div>
           </div>
