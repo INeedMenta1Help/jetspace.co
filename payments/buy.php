@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<?php if ($_SERVER['REQUEST_METHOD'] == 'POST') require_once('./update_card.php'); ?>
+<?php if ($_SERVER['REQUEST_METHOD'] == 'POST') require_once('./payer.php'); ?>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8" />
