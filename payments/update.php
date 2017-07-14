@@ -146,7 +146,7 @@
             echo "<br />";
         }
       ?>
-      <h2>Payment Form</h2>
+      <h2>Card Details</h2>
       <form action="" method="POST" id="card-form" style="display: none;">
 
         <div class="form-row">
