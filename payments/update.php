@@ -105,7 +105,7 @@
           $(".card-expiry-year").val())
       }, "Please enter a valid expiration");
       // We use the jQuery validate plugin to validate required params on submit
-      $("#example-form").validate({
+      $("#card-form").validate({
         submitHandler: submit,
         rules: {
           "card-cvc": {
@@ -138,7 +138,7 @@
             echo $success;
         }
       ?>
-      <form action="/" method="post" id="card-form" style="display: none;">
+      <form action="" method="POST" id="card-form" style="display: none;">
 
         <div class="form-row">
           <label for="name" class="stripeLabel">Your Name</label>
@@ -208,12 +208,12 @@
   <script>
     if (window.Stripe) $("#card-form").show()
   </script>
-  <noscript><p>JavaScript is required for the registration form.</p></noscript>
   <script>
     $('.payment').css({
       'top': 'calc(50% - ' + $('.payment').height() + 'px / 2)'
     });
   </script>
+  <noscript><p>JavaScript is required for the registration form.</p></noscript>
 </body>
 
 </html>
