@@ -62,7 +62,7 @@
        <form action="" method="POST" id="card-form">
          <div class="form-row">
            <label>Enter the special ID you were provided with</label>
-           <input type="text" name="cusID" id="cusID" placeholder="cus_C1YF53Ygh9hDf" />
+           <input type="text" name="cusID" id="cusID" placeholder="e.g. 'cus_C1YF53Ygh9hDf'" />
          </div>
          <button type="submit" name="submit-button">Submit</button>
        </form>
