@@ -60,8 +60,9 @@
           echo $success;
         }
       ?>
-      <form action="" method="POST">
-        <input type="text" name="cusID" id="cusID" value="Your special ID, e.g. 'cus_C1YF53Ygh9hDf'" />
+      <form name="form" action="" method="post">
+        <input type="text" name="cusID" id="cusID" placeholder="Your special ID, e.g. 'cus_C1YF53Ygh9hDf'" />
+        <br />
         <script
           src="https://checkout.stripe.com/checkout.js"
           class="stripe-button"
