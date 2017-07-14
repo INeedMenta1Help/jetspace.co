@@ -3,6 +3,7 @@ pull.sh
 payload.php
 
 # Private files
+payments/payer.php
 phpinfo.php
 layout-styles.css
 robots.txt

@@ -55,55 +55,18 @@
     <div class="payment">
       <h2>Payment Form</h2>
 
-      <form id="buy-form" method="post" action="javascript:">
-
-        <span class="form-label">First Name:</span>
-        <input class="text" id="first-name" spellcheck="false"></input>
-
-        <span class="form-label">Last Name:</span>
-        <input class="text" id="last-name" spellcheck="false"></input>
-
-        <span class="form-label">Email Address:</span>
-        <input class="text" id="email" spellcheck="false"></input>
-
-        <span class="form-label">Credit Card Number:</span>
-        <input class="text" id="card-number" autocomplete="off"></input>
-
-        <span class="form-label">Expiration Date:</span>
-        <select id="expiration-month">
-          <option value="1">January</option>
-          <option value="2">February</option>
-          <option value="3">March</option>
-          <option value="4">April</option>
-          <option value="5">May</option>
-          <option value="6">June</option>
-          <option value="7">July</option>
-          <option value="8">August</option>
-          <option value="9">September</option>
-          <option value="10">October</option>
-          <option value="11">November</option>
-          <option value="12">December</option>
-        </select>
-
-        <select id="expiration-year">
-          <?php
-            $yearRange = 20;
-            $thisYear = date('Y');
-            $startYear = ($thisYear + $yearRange);
-
-            foreach (range($thisYear, $startYear) as $year) {
-              if ($year == $thisYear) {
-                print '<option value="'.$year.'" selected="selected">' . $year . '</option>';
-              } else {
-                print '<option value="'.$year.'">' . $year . '</option>';
-              }
-            }
-          ?>
-        </select>
-        <br />
-        <span class="form-label">CVC</span>
-        <input class="text" id="card-security-code" autocomplete="off"></input>
-        <input id="buy-submit-button" type="submit" value="Submit"></input>
+      <form action="" method="POST">
+        <script
+          src="https://checkout.stripe.com/checkout.js"
+          class="stripe-button"
+          data-key="pk_test_mbKGfYybkFJPrHE5WJiVIv88"
+          data-image="/path/to/your/logo.png"
+          data-name="Your Website Name"
+          data-panel-label="Update Card Details"
+          data-label="Update Card Details"
+          data-allow-remember-me=false
+          data-locale="auto">
+        </script>
       </form>
     </div>
     <script>
