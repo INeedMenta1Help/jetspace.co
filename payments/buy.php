@@ -68,7 +68,7 @@
           data-name="JETSPACE LTD."
           data-panel-label="Set Card Details"
           data-label="Set Card Details"
-          data-allow-remember-me=false
+          data-allow-remember-me=true
           data-locale="auto">
         </script>
       </form>
