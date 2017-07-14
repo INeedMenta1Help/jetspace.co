@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,700&subset=cyrillic,latin-ext');
 
+.logo {
+  position: absolute;
+  left: 3em;
+  top: -.5em;
+  width: 100%;
+  display: block;
+  height: 100px;
+}
+
+.logo img {
+  display: inline-block;
+  max-height: 30em
+}
+
+.logo img:first-child {
+  height: 7em;
+  margin: 0 1em 0 0;
+}
+
+.logo img:last-child {
+  height: 12em;
+}
 
 .payment {
   font-size: 16px;
