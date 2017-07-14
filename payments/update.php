@@ -136,10 +136,10 @@
       <?php
         if (isset($error)) {
             echo $error;
-            echo "<br />"
+            echo "<br />";
         } elseif (isset($success)) {
             echo $success;
-            echo "<br />"
+            echo "<br />";
         }
       ?>
       <h2>Payment Form</h2>
