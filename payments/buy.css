@@ -1,0 +1,11 @@
+.payment {
+  font-size: 16px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#buy-form input {
+  display: block;
+  margin: 5px 0;
+}
