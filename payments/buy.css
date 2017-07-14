@@ -1,11 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,700&subset=cyrillic,latin-ext');
+
+
 .payment {
   font-size: 16px;
+  font-family: Rubik, Roboto, sans-serif;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
 }
 
+.payment h2 {
+  color: #464646;
+}
+
+#card-form {
+  // Nothing yet
+}
+
+
 #card-form input {
   display: block;
-  margin: 5px 0;
+  margin: 0;
+  border-radius: 5px;
+  outline: none;
+  background: #f4f4f4;
+  border: 1px solid #e2e2e2;
+  padding: 0.1em .5em;
+  width: 100%;
+}
+
+
+#card-form label {
+  display: block;
+  margin: 1.1em 0 0 0;
+}
+
+
+label.error {
+  margin: 7px 0 0 0 !important;
+  font-size: .7em;
+  border-bottom: 1px solid #222;
+ }
+
+#card-form .form-row:nth-child(4) {
+  margin: 1.1em 0 0 0;
+}
+
+#card-form .form-row:nth-child(4) label {
+  display: inline;
+  margin: 0 10px 0 0;
+}
+
+
+#card-form .form-row:nth-child(4) input {
+  display: inline-block;
+  width: 3em
+}
+
+
+#card-form .form-row:nth-child(5) label {
+  display: inline-block;
+}
+
+.expiry-wrapper {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+
+#card-form select {
+  display: inline-block;
+  margin: 0;
+  border-radius: 5px;
+  outline: none;
+  background: #f4f4f4;
+  border: 1px solid #e2e2e2;
+  padding: 0.1em .5em;
 }
