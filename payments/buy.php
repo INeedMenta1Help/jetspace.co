@@ -1,6 +1,6 @@
 <!DOCTYPE html>
+<?php if ($_SERVER['REQUEST_METHOD'] == 'POST') require_once('./update_card.php'); ?>
 <html lang="en" prefix="og: http://ogp.me/ns#">
-
   <head>
     <meta charset="utf-8" />
     <title>Payments | JetSpace</title>
@@ -44,7 +44,7 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
       <script src="https://js.stripe.com/v1/"></script>
       <script>
-        Stripe.setPublishableKey('pk_live_Of7dcqCHZ6XPIwyos6Ti3K3u');   // Test key!
+        Stripe.setPublishableKey('pk_live_Of7dcqCHZ6XPIwyos6Ti3K3u');
       </script>
       <script src="buy.js"></script>
       <!--Fallback for local framework-->
@@ -54,16 +54,21 @@
   <body>
     <div class="payment">
       <h2>Payment Form</h2>
-
+      <?php
+        if (isset($error)) {
+          echo $error;
+        } elseif (isset($success)) {
+          echo $success;
+        }
+      ?>
       <form action="" method="POST">
         <script
           src="https://checkout.stripe.com/checkout.js"
           class="stripe-button"
-          data-key="pk_test_mbKGfYybkFJPrHE5WJiVIv88"
-          data-image="/path/to/your/logo.png"
-          data-name="Your Website Name"
-          data-panel-label="Update Card Details"
-          data-label="Update Card Details"
+          data-key="pk_live_Of7dcqCHZ6XPIwyos6Ti3K3u"
+          data-name="JETSPACE LTD."
+          data-panel-label="Set Card Details"
+          data-label="Set Card Details"
           data-allow-remember-me=false
           data-locale="auto">
         </script>
