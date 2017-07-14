@@ -132,6 +132,10 @@
   </head>
 
   <body>
+    <div class="logo">
+      <img src="../assets/media/images/content/ApoapsisLG.svg" alt="Payment for your Website, ">
+      <img src="../assets/media/images/content/animated-word-logo-black.svg" alt=" Jetspace LTD.">
+    </div>
     <div class="payment">
       <?php
         if (isset($error)) {
@@ -198,7 +202,7 @@
     </script>
     <script>
       $('.payment').css({
-        'top': 'calc(50% - ' + $('.payment').height() + 'px / 2)'
+        'top': 'calc(50% - ' + $('.payment').outerHeight() + 'px / 2)'
       });
     </script>
     <noscript><p>JavaScript is required for the registration form.</p></noscript>
