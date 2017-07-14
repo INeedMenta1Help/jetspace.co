@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php if ($_SERVER['REQUEST_METHOD'] == 'POST') require_once('./updater.php'); ?>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
@@ -61,8 +62,6 @@
         }
       ?>
       <form name="form" action="" method="post">
-        <input type="text" name="cusID" id="cusID" placeholder="Your special ID, e.g. 'cus_C1YF53Ygh9hDf'" />
-        <br />
         <script
           src="https://checkout.stripe.com/checkout.js"
           class="stripe-button"
