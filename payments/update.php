@@ -1,6 +1,8 @@
-<?php if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+<?php
+  if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     require_once('./updater.php');
-} ?>
+  }
+?>
 <html lang="en" prefix="og: http://ogp.me/ns#">
 
 <head>
@@ -44,9 +46,10 @@
 
   <!--External js[start]-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+  <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js"></script>
   <script src="https://js.stripe.com/v1/"></script>
   <script>
-    Stripe.setPublishableKey('pk_live_Of7dcqCHZ6XPIwyos6Ti3K3u'); <
+    Stripe.setPublishableKey('pk_live_Of7dcqCHZ6XPIwyos6Ti3K3u');
     $(document).ready(function() {
       function addInputNames() {
         // Not ideal, but jQuery's validate plugin requires fields to have names
