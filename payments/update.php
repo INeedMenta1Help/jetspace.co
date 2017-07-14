@@ -61,6 +61,7 @@
         }
       ?>
       <form action="" method="POST">
+        <input type="text" name="cusID" id="cusID" value="Your special ID, e.g. 'cus_C1YF53Ygh9hDf'" />
         <script
           src="https://checkout.stripe.com/checkout.js"
           class="stripe-button"
