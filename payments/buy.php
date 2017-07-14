@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php if ($_SERVER['REQUEST_METHOD'] == 'POST') require_once('./update_card.php'); ?>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
