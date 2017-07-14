@@ -59,12 +59,12 @@
      </div>
      <div class="payment">
        <h2>Special ID</h2>
-       <form action="" method="POST" id="card-form">
+       <form name="form" action="" method="post" id="card-form">
          <div class="form-row">
-           <label>Enter the special ID you were provided with</label>
+           <label for="cusID">Enter the special ID you were provided with</label>
            <input type="text" name="cusID" id="cusID" placeholder="e.g. 'cus_C1YF53Ygh9hDf'" />
+           <input class="submit" type="submit" />
          </div>
-         <button type="submit" name="submit-button">Submit</button>
        </form>
      </div>
      <script>
