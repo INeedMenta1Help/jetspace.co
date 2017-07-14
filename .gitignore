@@ -4,6 +4,7 @@ payload.php
 
 # Private files
 payments/payer.php
+payments/updater.php
 phpinfo.php
 layout-styles.css
 robots.txt

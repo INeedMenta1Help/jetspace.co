@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <?php if ($_SERVER['REQUEST_METHOD'] == 'POST') require_once('./updater.php'); ?>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
@@ -61,16 +60,15 @@
           echo $success;
         }
       ?>
-      <form name="form" action="" method="post">
+      <form action="" method="POST">
         <script
-          src="https://checkout.stripe.com/checkout.js"
-          class="stripe-button"
-          data-key="pk_live_Of7dcqCHZ6XPIwyos6Ti3K3u"
-          data-name="JETSPACE LTD."
-          data-panel-label="Set Card Details"
-          data-label="Set Card Details"
-          data-allow-remember-me=true
-          data-locale="auto">
+        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+        data-key="pk_live_Of7dcqCHZ6XPIwyos6Ti3K3u"
+        data-name="Your Website Name"
+        data-panel-label="Update Card Details"
+        data-label="Update Card Details"
+        data-allow-remember-me=false
+        data-locale="auto">
         </script>
       </form>
     </div>
