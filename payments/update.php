@@ -1,4 +1,4 @@
-<?php if ($_SERVER['REQUEST_METHOD'] == 'POST') require_once('./payer.php'); ?>
+<?php if ($_SERVER['REQUEST_METHOD'] == 'POST') require_once('./updater.php'); ?>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8" />
