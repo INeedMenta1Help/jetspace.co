@@ -14,7 +14,7 @@
     <!-- keep width and height -->
     <base target="_parent" />
     <meta property="og:description" content="Get a look at what we're all about and see our FAQ section" />
-    < <!-- BASIC INFO[end] -->
+    <!-- BASIC INFO[end] -->
 
       <!--Local CSS[start]-->
       <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
