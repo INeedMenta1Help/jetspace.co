@@ -1,5 +1,9 @@
 <?php
-  session_start();
+session_start();
+if(isset($_POST["cusID"])) {
+  $_SESSION["cusID"] = $_POST["cusID"];
+  header('Location: update.php');
+}
 ?>
 <html>
   <head>
@@ -47,12 +51,6 @@
   </head>
 
   <body>
-    <?php
-      if(isset($_POST["cusID"])) {
-        $_SESSION["cusID"] = $_POST["cusID"];
-        header('Location: update.php');
-      }
-     ?>
      <div class="logo">
        <img src="../assets/media/images/content/ApoapsisLG.svg" alt="Payment for your Website, ">
        <img src="../assets/media/images/content/animated-word-logo-black.svg" alt=" Jetspace LTD.">
