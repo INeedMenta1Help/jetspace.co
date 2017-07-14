@@ -118,3 +118,18 @@ label.error {
 #card-form button:hover {
   background: #fff;
 }
+
+#card-form .submit {
+  margin: 2.4em 0 0 0;
+  width: 100%;
+  height: 2.4em;
+  background: #f4f4f4;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #e2e2e2;
+  transition: all .1s ease-in-out;
+}
+
+#card-form .submit:hover {
+  background: #fff;
+}
