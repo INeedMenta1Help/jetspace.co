@@ -60,7 +60,7 @@ if(isset($_POST["cusID"])) {
        <form name="form" action="" method="post" id="card-form">
          <div class="form-row">
            <label for="cusID">Enter the special ID you were provided with</label>
-           <input type="text" name="cusID" id="cusID" placeholder="e.g. 'cus_C1YF53Ygh9hDf'" />
+           <input type="text" name="cusID" id="cusID" placeholder="e.g. 'cus_C1YF53Ygh9hDf'" required />
            <input class="submit" type="submit" />
          </div>
        </form>
