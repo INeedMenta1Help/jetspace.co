@@ -2,7 +2,7 @@
 
 .logo {
   position: absolute;
-  left: 3em;
+  left: 0;
   top: -.5em;
   width: 100%;
   display: block;
@@ -16,7 +16,7 @@
 
 .logo img:first-child {
   height: 7em;
-  margin: 0 1em 0 0;
+  margin: 0 1em 0 3em;
 }
 
 .logo img:last-child {
