@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(isset($_POST["cusID"])) {
-  $_SESSION["cusID"] = $_POST["cusID"];
+  $_SESSION["cusID"] = trim($_POST["cusID"]);
   header('Location: update.php');
 }
 ?>
