@@ -144,7 +144,7 @@
 				<ul class="grid grid--effect-flip">
 
           <li class="grid__item">
-            <a class="grid__link" href="http://worship.media/">
+            <a class="grid__link" href="http://worship.media/" target="_blank">
           		<img class="grid__img layer" src="assets/media/images/content/wireframe.png" alt="Wireframe Dummy" />
           		<img class="grid__img layer" src="assets/media/images/content/portfolio/worshipmedia.png" alt="011"/>
               <img class="grid__img layer" src="assets/media/images/content/portfolio/P_WM.svg" alt="01" />
@@ -153,7 +153,7 @@
           </li>
 
           <li class="grid__item">
-						<a class="grid__link" href="http://cuisine.jetspace.co/">
+						<a class="grid__link" href="http://cuisine.jetspace.co/" target="_blank">
 							<img class="grid__img layer" src="assets/media/images/content/wireframe.png" alt="Wireframe Dummy" />
 							<img class="grid__img layer" src="assets/media/images/content/Dribbble1/2_1.jpg" alt="021" />
               <img class="grid__img layer" src="assets/media/images/content/portfolio/P_REST.svg" alt="01" />
@@ -162,7 +162,7 @@
 					</li>
 
 					<li class="grid__item">
-						<a class="grid__link" href="http://travel.jetspace.co/">
+						<a class="grid__link" href="http://travel.jetspace.co/" target="_blank">
 							<img class="grid__img layer" src="assets/media/images/content/wireframe.png" alt="Wireframe Dummy" />
 							<img class="grid__img layer" src="assets/media/images/content/Dribbble1/3.jpg" alt="03" />
               <img class="grid__img layer" src="assets/media/images/content/portfolio/P_TRAVEL.svg" alt="01" />
@@ -171,7 +171,7 @@
 					</li>
 
           <li class="grid__item">
-						<a class="grid__link" href="http://newtab.jetspace.co/">
+						<a class="grid__link" href="http://tab.jetspace.co/" target="_blank">
 							<img class="grid__img layer" src="assets/media/images/content/wireframe.png" alt="Wireframe Dummy" />
 							<img class="grid__img layer" src="assets/media/images/content/Dribbble1/2.jpg" alt="03" />
               <img class="grid__img layer" src="assets/media/images/content/portfolio/P_PLUMB.svg" alt="01" />
@@ -180,14 +180,15 @@
 					</li>
 
           <li class="grid__item">
-						<a class="grid__link" href="http://university.jetspace.co/">
+						<a class="grid__link" href="http://university.jetspace.co/" target="_blank">
 							<img class="grid__img layer" src="assets/media/images/content/wireframe.png" alt="Wireframe Dummy" />
 							<img class="grid__img layer" src="assets/media/images/content/Dribbble1/2.jpg" alt="03" />
               <img class="grid__img layer" src="assets/media/images/content/portfolio/P_UNI.svg" alt="01" />
               <span class="grid__title">University*</span>
 						</a>
 					</li>
-
+	<!--		TWIGG, ONLY ADD WEBSITES WHEN YOU'VE EVEN BOTHERED TO FINISH THEM! -->
+	<!--
           <li class="grid__item">
 						<a class="grid__link" href="http://personalpage.jetspace.co/">
 							<img class="grid__img layer" src="assets/media/images/content/wireframe.png" alt="Wireframe Dummy" />
@@ -205,6 +206,7 @@
               <span class="grid__title">Broadcasting*</span>
 						</a>
 					</li>
+	-->
 
 				</ul>
 			</div>
