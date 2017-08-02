@@ -129,16 +129,16 @@
                </div>
 
                <div class="col-md-10">
-                 <p class="sec2m">How can I guarantee my website looks good?</p><br>
-                 <p class="sec2t" style="margin-top: -15pt">Us here at Jetspace make sure that every site is fit for purpose, we will design
+                 <p class="sec2m">How can I guarantee my website will look good?</p><br>
+                 <p class="sec2t" style="margin-top: -15pt">Here at Jetspace we make sure that every site is fit for purpose, we will design
                    your site to have style and picturesque, but if you have an idea of what you would speciafically like it to be we are
                    always there for you to contact us with information with more details and we'll follow it.</p>
                </div>
 
                <div class="col-md-10">
                  <p class="sec2m">How long will my website take to complete?</p><br>
-                 <p class="sec2t" style="margin-top: -15pt">Each website can vary on a site-to-site basis, if you have a more complex website
-                 to build then of course it would take longer, but usually for a simple site it should only take less than a month, a super site
+                 <p class="sec2t" style="margin-top: -15pt">Each website varies, if you want a more complex website
+                 then of course it would take longer, but usually for a simple site it should only take less than a month, a super site
                  would take much longer, So you know it'll be good.</p>
                </div>
 
