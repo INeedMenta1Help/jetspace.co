@@ -87,7 +87,7 @@
     <div class="quick">
       <a href="/websites">
         <div class="button">
-          <span>Get Website</span>
+          <span>Get Started</span>
         </div>
       </a>
     </div>
