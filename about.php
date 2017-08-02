@@ -9,7 +9,7 @@
     <meta property="og:image:width" content="1000" /><!--Edit depending on resolution of image (keep w and h the same)-->
     <meta property="og:image:height" content="1000" /><!-- keep width and height -->
     <base target="_parent" />
-    <meta property="og:description" content="Get a look at what we're all about and see our FAQ section" /><
+    <meta property="og:description" content="Get a look at what we're all about and see our FAQ section" />
     <!-- BASIC INFO[end] -->
 
     <!--Local CSS[start]-->
