@@ -108,8 +108,8 @@
          <div class="row">
 
               <div class="col-md-12" style="text-align: center;">
-               <h1 class="sec2h">Frequently Asked Questions:</h1>
-                <p class="sec2t" style="margin-bottom: 15pt">These are some of the FAQ's we recieve regarding our websites, got a question?<br>
+               <h1 class="sec2h">Frequently Asked Questions:</h1>                        <!--VVVVV - I before E except after C -->
+                <p class="sec2t" style="margin-bottom: 15pt">These are some of the FAQ's we receive regarding our websites, got a question?<br>
                 Take a look below and see if we've answered it.</p>
                </div>
 
@@ -122,32 +122,32 @@
                </div>
 
                <div class="col-md-10">
-                 <p class="sec2m">Why are you so cheap?</p><br>
-                 <p class="sec2t" style="margin-top: -15pt">We are so cheap compared to other web design companies because we believe that people
-                 are charged far too much for websites that could cost much less, with our websites costing up to £500 less than other known
+                 <p class="sec2m">Why are you so inexpensive?</p><br>
+                 <p class="sec2t" style="margin-top: -15pt">We are inexpensive compared to other web design companies because we believe that people
+                 are charged too much for websites that could cost much less, with our websites costing up to £500 less than other known
                  companies, we only charge for time we put in, no more.</p>
                </div>
 
                <div class="col-md-10">
                  <p class="sec2m">How can I guarantee my website will look good?</p><br>
-                 <p class="sec2t" style="margin-top: -15pt">Here at Jetspace we make sure that every site is fit for purpose, we will design
-                   your site to have style and picturesque, but if you have an idea of what you would speciafically like it to be we are
-                   always there for you to contact us with information with more details and we'll follow it.</p>
+                 <p class="sec2t" style="margin-top: -15pt">
+                   Here at Jetspace we make sure that every site is fit for purpose, we will design
+                   your site to have style and functionality. We take your ideas with our ideas and produce your bespoke website.
+                 </p>
                </div>
 
                <div class="col-md-10">
                  <p class="sec2m">How long will my website take to complete?</p><br>
-                 <p class="sec2t" style="margin-top: -15pt">Each website varies, if you want a more complex website
-                 then of course it would take longer, but usually for a simple site it should only take less than a month, a super site
-                 would take much longer, So you know it'll be good.</p>
+                 <p class="sec2t" style="margin-top: -15pt">Each website varies, a more complex website
+                 then it would take longer. For a simple (single-page) site, about a month. <i>Super</i> (multiple page/complex) sites will take longer.
+                 </p>
                </div>
 
                <div class="col-md-10">
                  <p class="sec2m">How do I pay?</p><br>
-                 <p class="sec2t" style="margin-top: -15pt">You pay a deposit for the website just before the process begins (30% of the full price), we'll send you an
-                   invoice with cost of the site with all the bits and bobs included, you can then choose to pay through any media you like, credit
-                    card transfer or PayPal. At the end of the site being completed we will charge you for the rest of the money and then the site will go live. if you would
-                  like to stop the site before it is finished, you will not have to pay the full price, we will just keep the deposit</p>
+                 <p class="sec2t" style="margin-top: -15pt">You pay a deposit for the website before the process begins (30% of the full price). We will then send you an
+                   invoice for the rest, upon completion of the site. We accept payment either by bank transfer, credit card or PayPal.
+                 </p>
                </div>
             </div>
 
