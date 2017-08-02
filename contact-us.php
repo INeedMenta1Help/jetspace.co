@@ -79,7 +79,7 @@
    <div class="row">
          <div class="col-md-12" style="margin-top: 55pt; text-align: center">
           <p class="sec2h">When are we avaliable?</p>
-          <p class="sec2t" style="margin-top: 10pt">We are able to be contacted at these times:</p>
+          <p class="sec2t" style="margin-top: 10pt">We can contacted at these times:</p>
          </div>
            <div class="col-md-12" style="margin-bottom: 25pt; margin-top: 15pt; margin-right: 27pt; text-align: center;">
 
@@ -118,12 +118,12 @@
            <img src="assets/media/images/icons/social.svg"/>
             </div>
             <div class="col-md-6 sec2t" style="margin-top: 30pt; margin-bottom: 50pt; text-align: left; display: inline-block">
-              <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>Email us for business inquiries - <a class="link" href="mailto:quote@jetspace.co"       />business@jetspace.co</a></p></div>
-              <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>Email us for support -            <a class="link" href="mailto:info@jetspace.co"        />info@jetspace.co    </a></p></div>
-              <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>Follow us on twitter -            <a class="link" href="https://twitter.com/jetspaceweb" >@jetspaceweb        </a></p></div>
-              <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>Discover us on ello -             <a class="link" href="https://ello.co/jetspaceweb"     >@jetspaceweb        </a></p></div>
-              <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>'Git' a hold of us at -           <a class="link" href="https://github.com/jetspace-LTD" >@jetspace           </a></p></div>
-              <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>Call us at -                      <a class="link" href="tel:03302230162">0330 223 0162</a></p></div>
+              <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>Email us for business inquiries -     <a class="link" href="mailto:quote@jetspace.co"       />business@jetspace.co</a></p></div>
+              <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>Email us for support -                <a class="link" href="mailto:info@jetspace.co"        />info@jetspace.co    </a></p></div>
+              <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>Follow us on twitter -                <a class="link" href="https://twitter.com/jetspaceweb" >@jetspaceweb        </a></p></div>
+              <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>Discover us on ello -                 <a class="link" href="https://ello.co/jetspaceweb"     >@jetspaceweb        </a></p></div>
+              <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p><i>'Git'</i> a hold of us on GitHub - <a class="link" href="https://github.com/jetspace-LTD" >@jetspace           </a></p></div>
+              <div class="col-md-12 sec2t" style="margin-top: 10pt; text-align: left; display: inline-block"><p>Call us at -                          <a class="link" href="tel:03302230162">0330 223 0162</a></p></div>
             </div>
            </div>
           </div>
