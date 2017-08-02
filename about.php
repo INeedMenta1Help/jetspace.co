@@ -109,8 +109,10 @@
 
               <div class="col-md-12" style="text-align: center;">
                <h1 class="sec2h">Frequently Asked Questions:</h1>                        <!--VVVVV - I before E except after C -->
-                <p class="sec2t" style="margin-bottom: 15pt">These are some of the FAQ's we receive regarding our websites, got a question?<br>
-                Take a look below and see if we've answered it.</p>
+                <p class="sec2t" style="margin-bottom: 15pt">
+                  These are some of the FAQ's we receive regarding our websites<br>
+                  Any questions not answered here, we can answer through email: <a href="https://jetspace.co/contact-us">Contact Us</a>.
+                </p>
                </div>
 
             <div class="col-md-12" style="padding-left: 10%">
@@ -138,8 +140,8 @@
 
                <div class="col-md-10">
                  <p class="sec2m">How long will my website take to complete?</p><br>
-                 <p class="sec2t" style="margin-top: -15pt">Each website varies, a more complex website
-                 then it would take longer. For a simple (single-page) site, about a month. <i>Super</i> (multiple page/complex) sites will take longer.
+                 <p class="sec2t" style="margin-top: -15pt">Each website varies.
+                   For a <i>simple</i> site (single paged), about a month. <i>Super</i> (multiple page/complex) sites will take longer. See our <a href="https://jetspace.co/websites">websites</a> page.
                  </p>
                </div>
 
