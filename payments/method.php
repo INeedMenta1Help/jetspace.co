@@ -58,13 +58,23 @@ if(isset($_POST["cusID"])) {
     </div>
 
     <div class="methodbox" style="left: 5vw;">
+      <h2>Card</h2>
+        <p>Click here to pay by card for the deposit for your site, you will be redirected to the card paying page where you will be asked for a code which will be given in the email we sent you.<br>Services supported by Stripe&copy;</p>
+        <img src="../assets/media/images/paypal-button.png" />
 
+        <img src="../assets/media/images/logo/checkout/stripe.svg" />
+        <img src="../assets/media/images/logo/checkout/visa.svg" />
+        <img src="../assets/media/images/logo/checkout/mastercard.svg" />
+        <img src="../assets/media/images/logo/checkout/maestro.svg" />
     </div>
 
     <div class="seperator"></div>
 
-    <div class="methodbox" style="left: 60vw;">
-
+    <div class="methodbox" style="left: 55ßvw;">
+      <h2>Paypal</h2>
+      <p>Click here to pay by card for the deposit for your site, you will be redirected to the card paying page where you will be asked for a code which will be given in the email we sent you.<br>Services supported by Stripe&copy;</p>
+      <img src="../assets/media/images/logo/checkout/paypal.svg" />
+      <img src="../assets/media/images/paypal-button.png" />
     </div>
 
     <script>
