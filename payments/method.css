@@ -2,14 +2,25 @@
   font-size: 16px;
   font-family: Rubik, Roboto, sans-serif;
   position: absolute;
-  width: 40vw;
-  padding: 5em;
+  width: 35vw;
+  padding: 3.5em;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .methodbox h2 {
   color: #464646;
+  margin-left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.methodbox p {
+  padding: 1em;
+}
+
+.methodbox img {
+  width: 8vw;
 }
 
 .seperator {
