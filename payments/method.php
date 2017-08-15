@@ -57,13 +57,13 @@ if(isset($_POST["cusID"])) {
      <img src="../assets/media/images/content/animated-word-logo-black.svg" alt=" Jetspace LTD.">
     </div>
 
-    <div class="methodbox">
+    <div class="methodbox" style="left: 5vw;">
 
     </div>
 
     <div class="seperator"></div>
 
-    <div class="methodbox1">
+    <div class="methodbox" style="left: 60vw;">
 
     </div>
 
