@@ -4,16 +4,8 @@
   position: absolute;
   width: 40vw;
   padding: 5em;
-  left: 5vw;
-}
-
-.methodbox1 {
-  font-size: 16px;
-  font-family: Rubik, Roboto, sans-serif;
-  position: absolute;
-  width: 40vw;
-  padding: 5em;
-  left: 60vw;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .methodbox h2 {
@@ -22,9 +14,9 @@
 
 .seperator {
   border: 1px solid #ccc;
-  width: 1px;
+  width: 0vw;
   height: 50vh;
-  left: 50%;
+  margin-left: 50%;
   top: 50%;
   transform: translate(50%, 50%)
 }
