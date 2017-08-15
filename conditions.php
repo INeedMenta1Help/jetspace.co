@@ -118,7 +118,7 @@
 
                   2.4 You acknowledge that the prices advertised are estimates.<br>
 
-                  2.5 Any refunds made will only be partial in proportion to the hours already worked.<br>
+                  2.5 Any refunds made will be what you have paid so far minus the initial deposit.<br>
 
                   2.6 Licensing of any data of any sort given to us must comply with the 'GNU GPL-3.0'<br />
                   (GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007). Anything produced by us originally is under our chosen licence<br />
