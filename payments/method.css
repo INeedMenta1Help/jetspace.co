@@ -3,7 +3,6 @@
   font-family: Rubik, Roboto, sans-serif;
   position: absolute;
   width: 35vw;
-  padding: 3.5em;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -20,7 +19,13 @@
 }
 
 .methodbox img {
-  width: 8vw;
+  width: 6vw;
+}
+
+.paybtn {
+  transform: translateY(-50%);
+  margin-left: 50%;
+  width: 25vw;
 }
 
 .seperator {
