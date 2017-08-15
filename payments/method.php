@@ -60,7 +60,7 @@ if(isset($_POST["cusID"])) {
     <div class="methodbox" style="left: 7.5vw;">
       <h2>Card</h2>
         <p>Click here to pay by card for the deposit for your site, you will be redirected to the card paying page where you will be asked for a code which will be given in the email we sent you.<br>Services supported by Stripe&copy;</p>
-        <img src="../assets/media/images/paypal-button.png" style="width: 25vw" />
+        <img class="paybtn" src="../assets/media/images/paypal-button.png" />
 
         <img src="../assets/media/images/logo/checkout/stripe.svg" />
         <img src="../assets/media/images/logo/checkout/visa.svg" />
@@ -74,7 +74,7 @@ if(isset($_POST["cusID"])) {
       <h2>Paypal</h2>
       <p>Click here to pay by card for the deposit for your site, you will be redirected to the card paying page where you will be asked for a code which will be given in the email we sent you.<br>Services supported by Stripe&copy;</p>
       <img src="../assets/media/images/logo/checkout/paypal.svg" />
-      <img src="../assets/media/images/paypal-button.png" />
+      <img class="paybtn" src="../assets/media/images/paypal-button.png" />
     </div>
   </body>
 </html>
