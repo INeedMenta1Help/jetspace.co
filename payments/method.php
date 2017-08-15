@@ -57,10 +57,10 @@ if(isset($_POST["cusID"])) {
      <img src="../assets/media/images/content/animated-word-logo-black.svg" alt=" Jetspace LTD.">
     </div>
 
-    <div class="methodbox" style="left: 5vw;">
+    <div class="methodbox" style="left: 7.5vw;">
       <h2>Card</h2>
         <p>Click here to pay by card for the deposit for your site, you will be redirected to the card paying page where you will be asked for a code which will be given in the email we sent you.<br>Services supported by Stripe&copy;</p>
-        <img src="../assets/media/images/paypal-button.png" />
+        <img src="../assets/media/images/paypal-button.png" style="width: 25vw" />
 
         <img src="../assets/media/images/logo/checkout/stripe.svg" />
         <img src="../assets/media/images/logo/checkout/visa.svg" />
@@ -70,17 +70,11 @@ if(isset($_POST["cusID"])) {
 
     <div class="seperator"></div>
 
-    <div class="methodbox" style="left: 55ßvw;">
+    <div class="methodbox" style="left: 57.5vw;">
       <h2>Paypal</h2>
       <p>Click here to pay by card for the deposit for your site, you will be redirected to the card paying page where you will be asked for a code which will be given in the email we sent you.<br>Services supported by Stripe&copy;</p>
       <img src="../assets/media/images/logo/checkout/paypal.svg" />
       <img src="../assets/media/images/paypal-button.png" />
     </div>
-
-    <script>
-     $('.payment').css({
-       'top': 'calc(50% - ' + $('.payment').outerHeight() + 'px / 2)'
-     });
-    </script>
   </body>
 </html>
