@@ -73,8 +73,8 @@ if(isset($_POST["cusID"])) {
     <div class="methodbox" style="left: 57.5vw;">
       <h2>Paypal</h2>
       <p>Click here to pay by card for the deposit for your site, you will be redirected to the card paying page where you will be asked for a code which will be given in the email we sent you.<br>Services supported by Stripe&copy;</p>
-      <img src="../assets/media/images/logo/checkout/paypal.svg" />
       <img class="paybtn" src="../assets/media/images/paypal-button.png" />
+      <img src="../assets/media/images/logo/checkout/paypal.svg" style="transform: translate(-50%); margin-left: 50%" />
     </div>
   </body>
 </html>
