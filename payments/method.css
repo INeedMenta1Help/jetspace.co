@@ -20,12 +20,14 @@
 
 .methodbox img {
   width: 6vw;
+  margin-left: 2.2vw;
 }
 
 .paybtn {
-  transform: translateY(-50%);
+  transform: translate(-50%);
   margin-left: 50%;
-  width: 25vw;
+  width: 25vw !important;
+  margin-bottom: 2vh;
 }
 
 .seperator {
