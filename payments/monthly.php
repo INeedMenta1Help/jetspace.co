@@ -52,10 +52,10 @@
        <h2>PayPal Monthly Subscription</h2>
        <p>Click the PayPal button to set up the monthly subscription:</p>
        <br />
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="text-align: center;">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="K29RP4YUK58QW">
-<input type="image" src="https://jetspace.co/assets/media/images/paypal-button.png" border="0" style="width: 100px;" name="submit" alt="PayPal – The safer, easier way to pay online!">
+<input type="image" src="https://jetspace.co/assets/media/images/paypal-button.png" border="0" style="width: 200px;" name="submit" alt="PayPal – The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 </form><br />
      </div>
