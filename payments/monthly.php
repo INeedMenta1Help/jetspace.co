@@ -50,7 +50,8 @@
      </div>
      <div class="payment">
        <h2>PayPal Monthly Subscription</h2>
-       Click the PayPal button to set up the monthly subscription:
+       <p>Click the PayPal button to set up the monthly subscription:</p>
+       <br />
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="K29RP4YUK58QW">
