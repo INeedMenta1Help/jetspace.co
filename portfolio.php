@@ -192,7 +192,7 @@
 						<a class="grid__link" href="https://demonstrandum.github.io/homepage/" target="_blank">
 							<img class="grid__img layer" src="assets/media/images/content/wireframe.png" alt="Wireframe Dummy" />
 							<img class="grid__img layer" src="assets/media/images/content/portfolio/newtab.png" alt="03" />
-              <img class="grid__img layer" src="assets/media/images/content/portfolio/P_NEWTAB.svg" alt="01" />
+              <img class="grid__img layer" src="assets/media/images/content/portfolio/P_newtab.svg" alt="01" />
               <span class="grid__title">New Tab Page</span>
 						</a>
 					</li>
