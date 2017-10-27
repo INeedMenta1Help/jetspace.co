@@ -144,6 +144,24 @@
 				<ul class="grid grid--effect-flip">
 
           <li class="grid__item">
+            <a class="grid__link" href="https://vevo.com/halloween" target="_blank">
+          		<img class="grid__img layer" src="assets/media/images/content/wireframe.png" alt="Wireframe Dummy" />
+          		<img class="grid__img layer" src="assets/media/images/content/portfolio/vevohalloween.png" alt="011"/>
+              <img class="grid__img layer" src="assets/media/images/content/portfolio/P_VEVO.svg" alt="01" />
+              <span class="grid__title">VEVO Halloween</span>
+          	</a>
+          </li>
+
+          <li class="grid__item">
+            <a class="grid__link" href="http://victorythroughrighteousnessministries.com" target="_blank">
+          		<img class="grid__img layer" src="assets/media/images/content/wireframe.png" alt="Wireframe Dummy" />
+          		<img class="grid__img layer" src="assets/media/images/content/portfolio/vtrm.png" alt="011"/>
+              <img class="grid__img layer" src="assets/media/images/content/portfolio/P_VTRM.svg" alt="01" />
+              <span class="grid__title">VTR Ministries</span>
+          	</a>
+          </li>
+
+          <li class="grid__item">
             <a class="grid__link" href="http://worship.media/" target="_blank">
           		<img class="grid__img layer" src="assets/media/images/content/wireframe.png" alt="Wireframe Dummy" />
           		<img class="grid__img layer" src="assets/media/images/content/portfolio/worshipmedia.png" alt="011"/>
@@ -171,10 +189,10 @@
 					</li>
 
           <li class="grid__item">
-						<a class="grid__link" href="http://tab.jetspace.co/" target="_blank">
+						<a class="grid__link" href="https://demonstrandum.github.io/homepage/" target="_blank">
 							<img class="grid__img layer" src="assets/media/images/content/wireframe.png" alt="Wireframe Dummy" />
-							<img class="grid__img layer" src="assets/media/images/content/Dribbble1/2.jpg" alt="03" />
-              <img class="grid__img layer" src="assets/media/images/content/portfolio/P_PLUMB.svg" alt="01" />
+							<img class="grid__img layer" src="assets/media/images/content/portfolio/newtab.png" alt="03" />
+              <img class="grid__img layer" src="assets/media/images/content/portfolio/P_NEWTAB.svg" alt="01" />
               <span class="grid__title">New Tab Page</span>
 						</a>
 					</li>
@@ -182,31 +200,11 @@
           <li class="grid__item">
 						<a class="grid__link" href="http://university.jetspace.co/" target="_blank">
 							<img class="grid__img layer" src="assets/media/images/content/wireframe.png" alt="Wireframe Dummy" />
-							<img class="grid__img layer" src="assets/media/images/content/Dribbble1/2.jpg" alt="03" />
+							<img class="grid__img layer" src="assets/media/images/content/portfolio/uni.png" alt="03" />
               <img class="grid__img layer" src="assets/media/images/content/portfolio/P_UNI.svg" alt="01" />
               <span class="grid__title">University*</span>
 						</a>
 					</li>
-	<!--		TWIGG, ONLY ADD WEBSITES WHEN YOU'VE EVEN BOTHERED TO FINISH THEM! -->
-	<!--
-          <li class="grid__item">
-						<a class="grid__link" href="http://personalpage.jetspace.co/">
-							<img class="grid__img layer" src="assets/media/images/content/wireframe.png" alt="Wireframe Dummy" />
-							<img class="grid__img layer" src="assets/media/images/content/Dribbble1/2.jpg" alt="03" />
-              <img class="grid__img layer" src="assets/media/images/content/portfolio/P_PP.svg" alt="01" />
-              <span class="grid__title">Personal Page*</span>
-						</a>
-					</li>
-
-          <li class="grid__item">
-						<a class="grid__link" href="http://broadcast.jetspace.co/">
-							<img class="grid__img layer" src="assets/media/images/content/wireframe.png" alt="Wireframe Dummy" />
-							<img class="grid__img layer" src="assets/media/images/content/Dribbble1/2.jpg" alt="03" />
-              <img class="grid__img layer" src="assets/media/images/content/portfolio/P_BRO.svg" alt="01" />
-              <span class="grid__title">Broadcasting*</span>
-						</a>
-					</li>
-	-->
 
 				</ul>
 			</div>
