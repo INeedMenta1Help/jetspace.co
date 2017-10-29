@@ -20,7 +20,7 @@ function Paddle(x, y) {
   this.dir = 0;
 
   this.render = function() {
-    fill(255);
+    fill(230);
     rect(this.x, this.y, 10, 200);
   }
 
@@ -70,7 +70,7 @@ function Ball(x, y, r) {
   this.r = r;
 
   this.render = function()  {
-    fill(255);
+    fill(230);
     noStroke();
     rect(this.x, this.y, this.r, this.r);
   }
@@ -134,25 +134,34 @@ var isMoving;
 var RScore = 0;
 var LScore = 0;
 var scl = 7.5
+var canv;
 
 function preload() {
 	myFont = loadFont('https://cdn.rawgit.com/INeedMenta1Help/Pong/d51a9afc/FFFFORWA.TTF?raw=true');
 }
 
-function setup() {
+function reloadCanvas() {
+	canv = createCanvas(window.innerWidth - 5, window.innerHeight - 5);
+	canv.parent('p5-container')
+}
 
+function setup() {
 	frameRate(60);
 	rectMode(CENTER);
-	var canv = createCanvas(window.innerWidth - 5, window.innerHeight - 5);
+	canv = createCanvas(window.innerWidth - 5, window.innerHeight - 5);
 	canv.parent('p5-container')
+	reloadCanvas();
 	PadL = new Paddle(20, height/2);
 	PadR = new Paddle(width - 20, height/2);
 	ball = new Ball(width/2, height/2, 20);
 	showScore = new ScoreDisplay();
 }
 
+function windowResized() {
+ 	reloadCanvas();
+}
 function draw() {
-	background(0, 175);
+	background(34, 175);
 
 	//paddles
 	PadL.render();
@@ -164,7 +173,7 @@ function draw() {
 
 	//bot
 		//comment out PadL.bot if you want to play...
-	//PadL.botL();
+	PadL.botL();
 		//Do not Comment Out PadR.Bot
 	PadR.botR();
 
