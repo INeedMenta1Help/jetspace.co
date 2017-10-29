@@ -139,7 +139,8 @@ function setup() {
 
 	frameRate(60);
 	rectMode(CENTER);
-	createCanvas(window.innerWidth - 5, window.innerHeight - 5);
+	var canv = createCanvas(window.innerWidth - 5, window.innerHeight - 5);
+	canv.parent('p5-container')
 	PadL = new Paddle(20, height/2);
 	PadR = new Paddle(width - 20, height/2);
 	ball = new Ball(width/2, height/2, 20);
