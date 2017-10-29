@@ -215,7 +215,8 @@ function ScoreDisplay() {
 		textAlign(CENTER);
 		textFont(myFont);
 		textSize(100);
-		text(ScoreString, width/2, 175);
+		fill(230, 230, 230, 200);
+		text(ScoreString, width/2, 215);
 	}
 }
 </script>
