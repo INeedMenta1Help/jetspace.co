@@ -4,13 +4,14 @@
 
 <div id="p5-container"></div>
 <style>
+  #p5-container { opacity: 0.6; }
   #p5-container, #p5-container.canvas {
     width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: -5;
   }
 </style>
 <script>
