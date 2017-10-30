@@ -134,7 +134,7 @@
     </div>
   </div>
 
-<script>
+  <script>
 
     $("#slideshow > div:gt(0)").hide();
 
