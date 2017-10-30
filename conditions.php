@@ -135,7 +135,7 @@
 
       <?php include 'footer.php'; ?>
       <?php include 'scripts.php'; ?>
-<script>
+  <script>
 
     $("#slideshow > div:gt(0)").hide();
 
