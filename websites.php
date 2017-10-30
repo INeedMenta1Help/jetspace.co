@@ -1,4 +1,4 @@
-        <?php
+<?php
   if(isset($_POST['submitQuote'])){
       $toQ = "quote@jetspace.co";
       $fromQ = $_POST['emailQ'];
